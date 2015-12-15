@@ -1,0 +1,182 @@
+body{
+	overflow-x:hidden;
+}
+
+#nav ul, #nav li{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background-color: transparent;
+}
+
+#sidebar{
+	border-top: none;
+	border-bottom:none;
+	border-left:none;
+	min-width:200px;
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	background-color:#5065d6;
+}
+
+#map-location-pin{
+	flex:1;
+	max-height:200px;
+}
+
+#map-location-pin img{
+	margin-left:100px;
+	margin-top:50px;
+
+}
+
+#city-search-box{
+	flex:1;
+	max-height:70px;
+}
+
+#tag-search-box{
+	flex:1;
+	max-height:50px;
+}
+
+#button{
+	flex: 1;
+	max-height:50px;
+}
+
+
+#logo{
+  height:200px;
+  width:800px;
+  background:url("../images/logo.jpg");
+  background-repeat: no-repeat;
+}
+
+
+
+#tag-search-box form input, #city-search-box form input{
+	border-radius:25px;
+	text-align: center;
+	width:300px;
+	color:#3F51B5;
+	height:30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+#banner{
+	background-color:#ffffff;
+	position:relative;
+	width: 100%;
+	height: 200px;
+}
+
+#nav{
+	width:100%;
+	height:50px;
+	position:absolute;
+	top:0;
+	background-color:transparent; 
+
+}
+
+#nav a:link, #nav a:visited{
+	float:right;
+	display: inline;
+  width: 80px;
+  color: #3F51B5;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  padding: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#current a:link, #current a:visited{
+  float:right;
+  display: inline;
+  width: 80px;
+  color: white;
+  background-color: #3F51B5;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #3F51B5;
+    color:white;
+}
+
+#container{
+	height: 900px;
+	background-color: #5065d6;
+	display: flex;
+}
+
+#content{
+	height:100%;
+	flex:3;
+	background-color:#5065d6;
+}
+
+#mapholder{
+	margin-top:10px;
+  margin-bottom:10px;
+	height:40%;
+	background-color: transparent;
+}
+
+#footer{
+  height:300px;
+  width:100%;
+  background-color:#3F51B5;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding-top:60px;
+  padding-bottom:60px;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.advertising{
+  flex:1;
+  background-color:transparent;
+}
+
+.copyright{
+  flex:1;
+  background-color:transparent;
+}
+
+.Flickr img{
+  width: 72px;
+  height: 72px;
+  padding: 5px;
+  padding-right:80px;
+  opacity:0.2;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+/*/*----------SLIDER----------------*/
+
+.sliderdemoBasicUsage input[type="number"] {
+  text-align: center;
+  padding-left: 10px;
+  color:blue; }
