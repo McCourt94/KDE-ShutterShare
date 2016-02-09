@@ -5,11 +5,11 @@ import urllib
  
 import flickr
  
-NUMBER_OF_IMAGES = 5
+NUMBER_OF_IMAGES = 56
  
 #this is slow
 def get_urls_for_tags(tags, number):
-    photos = flickr.photos_search(tags=tags, tag_mode='all', per_page=number)
+    photos = flickr.photos_search(tags=tags, per_page=number)
     urls = []
     for photo in photos:
         try:
@@ -32,9 +32,18 @@ def get_image_data(ids):
         photos.append(flickr.tags_getPhotoTags(id))
     return photos
 
-def print_data(data):
-    for d in data:
-        print d
+def print_data(image_data):
+    for data in image_data:
+        print data
+        
+def get_image_location(ids):
+    photo_location = []
+    for id in ids:
+        photo_id = flickr.Photo(id)
+        photo_location.append(photo_id.getLocation())
+    return photo_location
+        
+    
  
 def main(*argv):
     args = argv[1:]
@@ -46,8 +55,9 @@ def main(*argv):
  
     urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
     ids = get_image_id(urls)
+    geo = get_image_location(ids)
     image_data = get_image_data(ids)
-    print_data(image_data)
+    print_data(geo)
 
  
 if __name__ == '__main__':

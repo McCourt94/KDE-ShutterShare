@@ -311,6 +311,7 @@ class Photo(object):
         """
         method = 'flickr.photos.geo.getLocation'
         try:
+            #print self.id
             data = _doget(method, photo_id=self.id)
         except FlickrError: # Some other error might have occured too!?
             return None
@@ -959,37 +960,6 @@ class Gallery(object):
 #Flickr API methods
 #see api docs http://www.flickr.com/services/api/
 #for details of each param
-
-#XXX: Could be Photo.search(cls)
-def photos_search(user_id='', auth=False,  tags='', tag_mode='', text='',\
-                  min_upload_date='', max_upload_date='',\
-                  min_taken_date='', max_taken_date='', \
-                  license='', per_page='', page='', sort='',\
-                  safe_search='', content_type='', **kwargs):
-    """Returns a list of Photo objects.
-
-    If auth=True then will auth the user.  Can see private etc
-    """
-    method = 'flickr.photos.search'
-
-    data = _doget(method, auth=auth, user_id=user_id, tags=tags, text=text,\
-                  min_upload_date=min_upload_date,\
-                  max_upload_date=max_upload_date, \
-                  min_taken_date=min_taken_date, \
-                  max_taken_date=max_taken_date, \
-                  license=license, per_page=per_page,\
-                  page=page, sort=sort,  safe_search=safe_search, \
-                  content_type=content_type, \
-                  tag_mode=tag_mode, **kwargs)
-    photos = []
-    if data.rsp.photos.__dict__.has_key('photo'):
-        if isinstance(data.rsp.photos.photo, list):
-            for photo in data.rsp.photos.photo:
-                photos.append(_parse_photo(photo))
-        else:
-            photos = [_parse_photo(data.rsp.photos.photo)]
-    return photos
-
 def photos_search_pages(user_id='', auth=False,  tags='', tag_mode='', text='',\
                   min_upload_date='', max_upload_date='',\
                   min_taken_date='', max_taken_date='', \
@@ -1151,6 +1121,24 @@ def tags_getrelated(tag):
         return [tag.text for tag in data.rsp.tags.tag]
     else:
         return [data.rsp.tags.tag.text]
+    
+#XXX: Could be Photo.search(cls)
+def photos_search(auth=False,  tags='', per_page='', page=''):
+    """Returns a list of Photo objects.
+    If auth=True then will auth the user.  Can see private etc
+    """
+    method = 'flickr.photos.search'
+
+    data = _doget(method, auth=auth, tags=tags, per_page=per_page,\
+                  page=page)
+    photos = []
+    if data.rsp.photos.__dict__.has_key('photo'):
+        if isinstance(data.rsp.photos.photo, list):
+            for photo in data.rsp.photos.photo:
+                photos.append(_parse_photo(photo))
+        else:
+            photos = [_parse_photo(data.rsp.photos.photo)]
+    return photos
 
 def tags_getPhotoTags(tag):
     """Gets the related tags for given tag."""
