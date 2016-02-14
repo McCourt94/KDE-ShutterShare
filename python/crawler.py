@@ -5,59 +5,104 @@ import urllib
  
 import flickr
  
-NUMBER_OF_IMAGES = 56
+NUMBER_OF_IMAGES = 150
+# page = 1
+# per_page=number
  
-#this is slow
+def traverse(o, tree_types=(list, tuple)):
+    if isinstance(o, tree_types):
+        for value in o:
+            for subvalue in traverse(value, tree_types):
+                yield subvalue
+    else:
+        yield o
+        
+def get_related_tags():
+    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt') as f:
+        lines = f.readlines()
+    
+    line_number = 0
+    for line_number in range(0,10):
+        try:
+            file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a')
+            file.close()
+        except:
+            print("Could not create file")
+            sys.exit(0)
+            
+        with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a') as t:
+            t.write(str(flickr.tags_getPhotoTags(lines[line_number]))+"\n")
+        
+        
+
 def get_urls_for_tags(tags, number):
-    photos = flickr.photos_search(tags=tags, per_page=number)
+    page_number = 1
+    photos = []
+    for page_number in range(1,11):       
+        photos.append(flickr.photos_search(tags=tags, per_page=number, page=page_number))
+    data = list(traverse(photos))
     urls = []
-    for photo in photos:
+    for photo in data:
         try:
             urls.append(photo.getURL(size='Large', urlType='source'))
         except:
             continue
     return urls
- 
+
 def get_image_id(urls):
     ids = []
     for url in urls:
-        print url
+        #print url
         photo_id = url.split('/')[-1]
         ids.append(photo_id)
     return ids
+            
 
-def get_image_data(ids):
-    photos = []
-    for id in ids:
-        photos.append(flickr.tags_getPhotoTags(id))
-    return photos
+def print_image_id(IDS):
+    try:
+        file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt",'a')
+        file.close()
+    except:
+        print("Could not create file")
+        sys.exit(0)
+        
+    with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt",'a') as f:
+        for ID in IDS:
+            f.write(str(ID)+'\n')
 
-def print_data(image_data):
-    for data in image_data:
-        print data
+def print_image_url(URLS):
+    try:
+        file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/URLS.txt",'a')
+        file.close()
+    except:
+        print("Could not create file")
+        sys.exit(0)
         
-def get_image_location(ids):
-    photo_location = []
-    for id in ids:
-        photo_id = flickr.Photo(id)
-        photo_location.append(photo_id.getLocation())
-    return photo_location
-        
-    
- 
+    with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/URLS.txt",'a') as f:
+        for URL in URLS:
+            f.write(str(URL)+'\n')
+                
 def main(*argv):
     args = argv[1:]
     if len(args) == 0:
         print "You must specify at least one tag"
         return 1
- 
-    tags = [item for item in args]
- 
-    urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
-    ids = get_image_id(urls)
-    geo = get_image_location(ids)
-    image_data = get_image_data(ids)
-    print_data(geo)
+
+    tags = []
+    for item in args:
+        tags.append(item)
+    
+    print tags
+#     urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
+#     ids = get_image_id(urls)
+#     print_image_url(urls)
+#     print_image_id(ids)
+    
+    tag = get_related_tags()
+    #print tag
+    
+    
+    
 
  
 if __name__ == '__main__':

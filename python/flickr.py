@@ -960,24 +960,6 @@ class Gallery(object):
 #Flickr API methods
 #see api docs http://www.flickr.com/services/api/
 #for details of each param
-def photos_search_pages(user_id='', auth=False,  tags='', tag_mode='', text='',\
-                  min_upload_date='', max_upload_date='',\
-                  min_taken_date='', max_taken_date='', \
-                  license='', per_page='', page='', sort=''):
-    """Returns the number of pages for the previous function (photos_search())
-    """
-	
-    method = 'flickr.photos.search'
-
-    data = _doget(method, auth=auth, user_id=user_id, tags=tags, text=text,\
-                  min_upload_date=min_upload_date,\
-                  max_upload_date=max_upload_date, \
-                  min_taken_date=min_taken_date, \
-                  max_taken_date=max_taken_date, \
-                  license=license, per_page=per_page,\
-                  page=page, sort=sort)
-	
-    return data.rsp.photos.pages
 
 def photos_get_recent(extras='', per_page='', page=''):
     """http://www.flickr.com/services/api/flickr.photos.getRecent.html
@@ -1128,9 +1110,8 @@ def photos_search(auth=False,  tags='', per_page='', page=''):
     If auth=True then will auth the user.  Can see private etc
     """
     method = 'flickr.photos.search'
-
-    data = _doget(method, auth=auth, tags=tags, per_page=per_page,\
-                  page=page)
+    print page
+    data = _doget(method, auth=auth, tags=tags, per_page=per_page,page=page)
     photos = []
     if data.rsp.photos.__dict__.has_key('photo'):
         if isinstance(data.rsp.photos.photo, list):
@@ -1140,14 +1121,32 @@ def photos_search(auth=False,  tags='', per_page='', page=''):
             photos = [_parse_photo(data.rsp.photos.photo)]
     return photos
 
+def photos_search_pages(user_id='', auth=False,  tags='', tag_mode='', text='',\
+                  min_upload_date='', max_upload_date='',\
+                  min_taken_date='', max_taken_date='', \
+                  license='', per_page='', page='', sort=''):
+    """Returns the number of pages for the previous function (photos_search())
+    """
+    
+    method = 'flickr.photos.search'
+
+    data = _doget(method, auth=auth, user_id=user_id, tags=tags, text=text,\
+                  min_upload_date=min_upload_date,\
+                  max_upload_date=max_upload_date, \
+                  min_taken_date=min_taken_date, \
+                  max_taken_date=max_taken_date, \
+                  license=license, per_page=per_page,\
+                  page=page, sort=sort)
+    
+    return data.rsp.photos.pages
+
 def tags_getPhotoTags(tag):
-    """Gets the related tags for given tag."""
     method = 'flickr.tags.getListPhoto'
     data = _doget(method, auth=False, photo_id=tag)
     if isinstance(data.rsp.photo.tags.tag, list):
-        return [tag.text for tag in data.rsp.photo.tags.tag]
+        return [tag.raw for tag in data.rsp.photo.tags.tag]
     else:
-        return [data.photo.tags.tag.text]
+        return [data.rsp.photo.tags.tag.raw]
 
 def contacts_getPublicList(user_id):
     """Gets the contacts (Users) for the user_id"""
