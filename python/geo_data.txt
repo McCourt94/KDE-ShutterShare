@@ -1,0 +1,7768 @@
+None
+None
+None
+[u'54.600225', u'-5.920579']
+[u'54.598671', u'-5.918605']
+[u'54.598671', u'-5.918605']
+[u'54.598671', u'-5.918605']
+[u'54.598671', u'-5.918605']
+[u'54.598671', u'-5.918605']
+[u'54.598671', u'-5.918605']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.601469', u'-5.921652']
+[u'54.601493', u'-5.920901']
+[u'54.597900', u'-5.917253']
+[u'54.597478', u'-5.920085']
+[u'54.601169', u'-5.922510']
+None
+[u'54.600342', u'-5.921167']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.598181', u'-5.930471']
+None
+[u'54.597227', u'-5.930514']
+[u'54.597227', u'-5.930514']
+[u'54.597227', u'-5.930514']
+[u'54.597227', u'-5.930514']
+[u'54.597227', u'-5.930514']
+[u'54.597227', u'-5.930514']
+[u'54.599341', u'-5.926181']
+[u'54.599491', u'-5.921503']
+[u'54.598275', u'-5.927467']
+[u'54.598275', u'-5.927467']
+[u'54.598275', u'-5.927467']
+[u'54.597675', u'-5.930345']
+[u'54.597675', u'-5.930345']
+[u'54.597675', u'-5.930345']
+[u'54.597675', u'-5.930345']
+[u'54.597675', u'-5.930345']
+[u'54.597227', u'-5.930514']
+[u'54.596469', u'-5.931014']
+None
+[u'54.661600', u'-6.216123']
+None
+None
+None
+None
+None
+None
+None
+[u'54.596667', u'-5.929892']
+None
+None
+None
+None
+None
+[u'54.596667', u'-5.929892']
+[u'54.596667', u'-5.929892']
+None
+None
+None
+[u'54.596667', u'-5.929892']
+None
+[u'54.596667', u'-5.929892']
+[u'54.596937', u'-5.929806']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.597032', u'-5.929563']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+[u'54.596701', u'-5.930138']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.597168', u'-5.931254']
+[u'54.597304', u'-5.930793']
+[u'54.596564', u'-5.930149']
+None
+[u'54.595798', u'-5.934939']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.312130', u'-5.717181']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.597328', u'-5.930117']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.597153', u'-5.930094']
+None
+None
+None
+None
+None
+None
+[u'54.596831', u'-5.930557']
+[u'54.596483', u'-5.930900']
+[u'54.597005', u'-5.930171']
+None
+[u'54.596931', u'-5.930557']
+None
+[u'54.597304', u'-5.930342']
+None
+[u'54.596477', u'-5.930052']
+[u'54.596999', u'-5.930010']
+[u'54.596999', u'-5.930010']
+[u'54.596999', u'-5.930010']
+None
+None
+None
+None
+None
+None
+[u'54.596371', u'-5.930042']
+[u'54.596371', u'-5.930042']
+[u'54.596371', u'-5.930042']
+[u'54.596371', u'-5.930042']
+[u'54.597227', u'-5.930028']
+[u'54.597204', u'-5.930471']
+[u'54.596893', u'-5.930246']
+[u'54.597105', u'-5.930771']
+None
+[u'54.597459', u'-5.930256']
+None
+None
+None
+None
+[u'54.597179', u'-5.930299']
+[u'54.597179', u'-5.930299']
+None
+None
+None
+None
+None
+[u'54.597875', u'-5.930171']
+None
+[u'54.597130', u'-5.930728']
+[u'54.597328', u'-5.930342']
+[u'54.597328', u'-5.930428']
+[u'54.597328', u'-5.930385']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+[u'54.596415', u'-5.930106']
+[u'54.596415', u'-5.930106']
+[u'54.596477', u'-5.930052']
+[u'54.596477', u'-5.930052']
+None
+None
+[u'54.597378', u'-5.930471']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+[u'54.596900', u'-5.930031']
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.596433', u'-5.930117']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.607048', u'-5.917339']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+[u'54.608241', u'-5.910258']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.608129', u'-5.910129']
+None
+[u'54.605216', u'-5.915944']
+[u'54.608173', u'-5.910097']
+[u'54.608173', u'-5.910097']
+[u'54.607642', u'-5.909045']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.616045', u'-5.900688']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608094', u'-5.910151']
+[u'54.608403', u'-5.910065']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.600859', u'-5.921545']
+[u'54.607321', u'-5.912123']
+[u'54.607048', u'-5.917339']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.607315', u'-5.910097']
+[u'54.607744', u'-5.910161']
+[u'54.608589', u'-5.909689']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+[u'54.608136', u'-5.910043']
+None
+[u'54.608241', u'-5.909636']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.608403', u'-5.910065']
+None
+None
+None
+None
+None
+None
+None
+[u'54.608810', u'-5.909518']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.608030', u'-5.910043']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.608074', u'-5.909829']
+None
+[u'54.606652', u'-5.910576']
+[u'54.606500', u'-5.910725']
+[u'54.606505', u'-5.910725']
+[u'54.606563', u'-5.910584']
+[u'54.606669', u'-5.910028']
+[u'54.606941', u'-5.909975']
+[u'54.615936', u'-5.900828']
+[u'54.616111', u'-5.900662']
+[u'54.616075', u'-5.900548']
+[u'54.616022', u'-5.900537']
+[u'54.615675', u'-5.900725']
+[u'54.615283', u'-5.900734']
+[u'54.614411', u'-5.901098']
+[u'54.614375', u'-5.901573']
+[u'54.614375', u'-5.901573']
+[u'54.614433', u'-5.901581']
+[u'54.614433', u'-5.901581']
+[u'54.614447', u'-5.901462']
+[u'54.608075', u'-5.909414']
+[u'54.608788', u'-5.909387']
+[u'54.608611', u'-5.909589']
+[u'54.608602', u'-5.910023']
+[u'54.608602', u'-5.910023']
+[u'54.608602', u'-5.910023']
+[u'54.608602', u'-5.910023']
+[u'54.608602', u'-5.910023']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603842', u'-5.915322']
+[u'54.608092', u'-5.909839']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.617909', u'-5.898971']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.607151', u'-5.910366']
+[u'54.607151', u'-5.910366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.606153', u'-5.911695']
+[u'54.608031', u'-5.910044']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588800', u'-5.958613']
+[u'54.588620', u'-5.958490']
+[u'54.588800', u'-5.958613']
+None
+None
+None
+None
+None
+None
+[u'54.576800', u'-5.954128']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.576800', u'-5.954128']
+[u'54.576800', u'-5.954128']
+[u'54.576800', u'-5.954128']
+[u'54.576800', u'-5.954128']
+[u'54.576800', u'-5.954128']
+[u'54.576800', u'-5.954128']
+[u'54.585369', u'-5.932850']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.602375', u'-5.828890']
+[u'54.602375', u'-5.828890']
+[u'54.602375', u'-5.828890']
+None
+None
+None
+[u'54.584921', u'-5.935642']
+[u'54.584921', u'-5.935642']
+[u'54.584921', u'-5.935642']
+[u'54.584921', u'-5.935642']
+None
+None
+None
+None
+None
+[u'54.584964', u'-5.932070']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.585358', u'-5.935964']
+None
+None
+None
+None
+[u'54.583497', u'-5.934044']
+[u'54.584408', u'-5.935384']
+[u'54.584402', u'-5.935545']
+[u'54.584408', u'-5.935384']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.584025', u'-5.934569']
+[u'54.590280', u'-5.919249']
+[u'54.584964', u'-5.932070']
+[u'54.584877', u'-5.932177']
+[u'54.584989', u'-5.932091']
+[u'54.584952', u'-5.932027']
+[u'54.584914', u'-5.931984']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.573628', u'-5.967915']
+[u'54.585580', u'-5.934698']
+[u'54.585580', u'-5.934698']
+None
+None
+None
+None
+[u'54.584162', u'-5.936050']
+[u'54.584162', u'-5.936050']
+[u'54.584050', u'-5.935792']
+[u'54.583752', u'-5.936350']
+[u'54.583752', u'-5.936350']
+[u'54.584087', u'-5.937949']
+[u'54.583814', u'-5.939151']
+[u'54.583814', u'-5.939151']
+None
+None
+[u'54.582558', u'-5.932445']
+[u'54.582558', u'-5.932445']
+[u'54.582558', u'-5.932445']
+[u'54.583901', u'-5.932509']
+[u'54.583851', u'-5.932209']
+[u'54.583901', u'-5.932338']
+[u'54.583826', u'-5.932338']
+[u'54.583901', u'-5.932466']
+[u'54.583826', u'-5.932381']
+[u'54.583901', u'-5.932338']
+[u'54.583180', u'-5.933454']
+[u'54.583180', u'-5.933711']
+[u'54.583801', u'-5.932166']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+None
+[u'31.247709', u'121.472618']
+[u'31.247709', u'121.472618']
+[u'54.585144', u'-5.933947']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+None
+None
+[u'54.584585', u'-5.936099']
+[u'54.584585', u'-5.936099']
+[u'54.582216', u'-5.931040']
+[u'54.582695', u'-5.934065']
+[u'54.582695', u'-5.934065']
+[u'54.582695', u'-5.934065']
+[u'54.582695', u'-5.934065']
+[u'54.583621', u'-5.933239']
+[u'54.583621', u'-5.933239']
+[u'54.584218', u'-5.935009']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.581240', u'-5.936071']
+[u'54.581078', u'-5.935943']
+[u'54.581078', u'-5.936286']
+[u'54.581178', u'-5.936157']
+[u'54.581041', u'-5.936157']
+[u'54.581151', u'-5.936028']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.585144', u'-5.933947']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+None
+None
+None
+None
+[u'54.584448', u'-5.935996']
+[u'54.584572', u'-5.935803']
+None
+None
+None
+None
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584433', u'-5.934376']
+[u'54.583916', u'-5.934344']
+[u'54.584028', u'-5.934644']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584890', u'-5.936994']
+[u'54.584809', u'-5.934891']
+[u'54.576859', u'-5.938088']
+[u'54.584809', u'-5.934891']
+[u'54.585042', u'-5.936543']
+[u'54.584809', u'-5.934891']
+[u'54.557052', u'-5.962228']
+[u'54.557052', u'-5.962228']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.575554', u'-5.934741']
+[u'54.575554', u'-5.934741']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.586631', u'-5.944590']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.557052', u'-5.962228']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.614797', u'-5.899786']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.614797', u'-5.899786']
+[u'54.579817', u'-5.937337']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.584809', u'-5.934891']
+[u'54.581284', u'-5.929913']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.584464', u'-5.936565']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+[u'52.078697', u'-1.015689']
+None
+None
+None
+None
+None
+None
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'54.579088', u'-5.937337']
+[u'52.078697', u'-1.015689']
+[u'54.584796', u'-5.934677']
+[u'54.584796', u'-5.934677']
+[u'54.584796', u'-5.934677']
+None
+[u'54.584167', u'-5.934333']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+[u'54.388079', u'-5.567407']
+None
+[u'54.585120', u'-5.932413']
+[u'54.584821', u'-5.936050']
+None
+None
+None
+None
+[u'54.584851', u'-5.935503']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.586441', u'-5.924449']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.583286', u'-5.936414']
+[u'54.582858', u'-5.933270']
+[u'54.583161', u'-5.932703']
+[u'54.583050', u'-5.932748']
+[u'54.583016', u'-5.932639']
+[u'54.583069', u'-5.932662']
+[u'54.582925', u'-5.933456']
+[u'54.582897', u'-5.933392']
+[u'54.582955', u'-5.933451']
+[u'54.582919', u'-5.933417']
+[u'54.582866', u'-5.933267']
+[u'54.582844', u'-5.933256']
+[u'54.582838', u'-5.933250']
+[u'54.582797', u'-5.933228']
+[u'54.582844', u'-5.933278']
+[u'54.582938', u'-5.933431']
+[u'54.582711', u'-5.932989']
+[u'54.582566', u'-5.932198']
+[u'54.582711', u'-5.932164']
+[u'54.582686', u'-5.932095']
+[u'54.582686', u'-5.932095']
+[u'54.582691', u'-5.932095']
+[u'54.582730', u'-5.932042']
+[u'54.582761', u'-5.932028']
+[u'54.582761', u'-5.932020']
+[u'54.581183', u'-5.931659']
+[u'54.581988', u'-5.932562']
+[u'54.581986', u'-5.932509']
+[u'54.582108', u'-5.932392']
+[u'54.582219', u'-5.932362']
+[u'54.582180', u'-5.932137']
+[u'54.582419', u'-5.932292']
+[u'54.582900', u'-5.932728']
+[u'54.583163', u'-5.934059']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.583316', u'-5.935703']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.582160', u'-5.931909']
+[u'54.584921', u'-5.936404']
+[u'54.584921', u'-5.936404']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.582508', u'-5.935535']
+[u'54.582508', u'-5.935535']
+[u'54.582508', u'-5.935535']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.582782', u'-5.935771']
+[u'54.582807', u'-5.935728']
+[u'54.582807', u'-5.935771']
+[u'54.583006', u'-5.935943']
+[u'54.583180', u'-5.933454']
+[u'54.583180', u'-5.933711']
+[u'54.583801', u'-5.932166']
+None
+None
+None
+None
+None
+None
+None
+[u'54.582707', u'-5.935728']
+[u'54.582657', u'-5.935771']
+[u'54.582657', u'-5.935814']
+[u'54.582782', u'-5.935943']
+[u'54.582832', u'-5.935814']
+[u'54.583304', u'-5.933454']
+[u'54.583229', u'-5.933454']
+[u'54.583205', u'-5.933539']
+[u'54.583155', u'-5.933582']
+[u'54.583229', u'-5.933454']
+[u'54.583222', u'-5.933639']
+[u'54.582466', u'-5.932550']
+[u'54.581538', u'-5.932773']
+None
+None
+None
+[u'54.582490', u'-5.934076']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.581824', u'-5.934848']
+[u'54.582359', u'-5.933432']
+[u'54.582322', u'-5.933518']
+[u'54.582458', u'-5.933518']
+[u'54.582446', u'-5.933432']
+[u'54.582558', u'-5.933518']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.582564', u'-5.934473']
+[u'54.582564', u'-5.934473']
+None
+[u'54.582564', u'-5.934473']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.583248', u'-5.933947']
+None
+[u'54.540194', u'-5.949933']
+[u'54.540841', u'-5.949708']
+None
+[u'54.547055', u'-5.952056']
+[u'54.547055', u'-5.952056']
+None
+None
+[u'54.553747', u'-5.950191']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552201', u'-5.952939']
+None
+None
+None
+None
+None
+None
+None
+[u'54.548023', u'-5.958194']
+None
+[u'54.547674', u'-5.957179']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553747', u'-5.950191']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552242', u'-5.953023']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552242', u'-5.953023']
+[u'54.549977', u'-5.954289']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.547513', u'-5.948452']
+None
+None
+None
+None
+None
+[u'54.554046', u'-5.953817']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552453', u'-5.952937']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+[u'54.549018', u'-5.956306']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.544463', u'-5.951135']
+[u'54.573307', u'-5.998721']
+[u'54.597527', u'-5.928497']
+[u'54.596235', u'-5.930900']
+[u'54.595798', u'-5.934939']
+[u'52.437647', u'-1.794805']
+[u'54.593350', u'-5.924034']
+[u'54.599914', u'-5.935363']
+[u'54.598820', u'-5.937767']
+[u'54.600312', u'-5.935020']
+[u'54.597826', u'-5.936050']
+[u'54.547425', u'-5.937380']
+None
+None
+None
+None
+[u'54.552111', u'-5.953334']
+[u'54.548925', u'-5.954611']
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+None
+None
+None
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.552302', u'-5.953389']
+None
+[u'54.552478', u'-5.952647']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.599019', u'-5.937767']
+[u'54.596533', u'-5.933990']
+[u'54.601604', u'-5.929870']
+[u'54.596732', u'-5.933990']
+None
+[u'54.552441', u'-5.952615']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+[u'54.553648', u'-5.958366']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.550686', u'-5.947294']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552180', u'-5.953398']
+[u'54.553803', u'-5.953077']
+[u'54.553275', u'-5.953409']
+[u'54.552584', u'-5.952937']
+[u'54.552736', u'-5.952905']
+[u'54.555779', u'-5.952680']
+[u'54.556186', u'-5.951145']
+[u'54.552708', u'-5.954450']
+[u'54.555944', u'-5.949150']
+[u'54.553349', u'-5.952336']
+[u'54.552736', u'-5.952905']
+[u'54.552736', u'-5.952905']
+None
+None
+[u'54.553847', u'-5.942230']
+[u'54.552503', u'-5.952374']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.552481', u'-5.953130']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.549106', u'-5.953345']
+[u'54.552852', u'-5.952336']
+[u'54.552453', u'-5.953216']
+[u'54.548465', u'-5.952331']
+[u'54.548334', u'-5.952191']
+[u'54.550574', u'-5.953516']
+[u'54.550835', u'-5.953216']
+None
+[u'54.550723', u'-5.953795']
+[u'54.548714', u'-5.952959']
+[u'54.547911', u'-5.952830']
+[u'54.540106', u'-5.950469']
+[u'54.552522', u'-5.953130']
+[u'54.548695', u'-5.952680']
+[u'54.552733', u'-5.952980']
+[u'54.548384', u'-5.952486']
+[u'54.552578', u'-5.952229']
+[u'54.552740', u'-5.953130']
+None
+None
+[u'54.543517', u'-5.943045']
+[u'39.921092', u'-75.644795']
+[u'54.552453', u'-5.953216']
+[u'54.552453', u'-5.953216']
+None
+None
+[u'54.552043', u'-5.950727']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.546679', u'-5.949954']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+[u'39.923700', u'-75.649065']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.644466', u'-5.951929']
+None
+None
+None
+None
+None
+None
+None
+[u'54.644910', u'-5.953632']
+[u'54.644496', u'-5.951551']
+[u'54.643747', u'-5.954756']
+[u'54.644953', u'-5.950881']
+None
+None
+[u'54.657020', u'-5.907108']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.648362', u'-5.946264']
+[u'54.644910', u'-5.953632']
+None
+None
+None
+[u'54.636417', u'-5.918841']
+[u'54.643476', u'-5.942013']
+[u'54.642905', u'-5.942034']
+[u'54.648629', u'-5.948849']
+[u'54.642661', u'-5.941854']
+None
+[u'54.646980', u'-5.948757']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.646324', u'-5.946247']
+None
+None
+[u'54.645938', u'-5.944590']
+None
+[u'54.644021', u'-5.957172']
+[u'54.645613', u'-5.949291']
+[u'54.642794', u'-5.944697']
+[u'54.644947', u'-5.948460']
+[u'54.644141', u'-5.951414']
+[u'54.644742', u'-5.951113']
+[u'54.643958', u'-5.950131']
+[u'54.643572', u'-5.950942']
+None
+[u'54.618463', u'-5.935519']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.648586', u'-5.961091']
+[u'54.642347', u'-5.942402']
+None
+None
+None
+None
+None
+None
+None
+[u'54.618463', u'-5.935519']
+[u'54.675170', u'-5.828444']
+[u'54.638958', u'-5.944134']
+[u'54.675170', u'-5.828444']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+[u'54.653626', u'-5.943689']
+None
+[u'54.644420', u'-5.949053']
+[u'54.648586', u'-5.961091']
+None
+[u'54.647891', u'-5.951800']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.646202', u'-5.949311']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.646773', u'-5.938625']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+None
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+None
+[u'38.243960', u'-85.719012']
+[u'38.243960', u'-85.719012']
+[u'38.243960', u'-85.719012']
+[u'38.245511', u'-85.717434']
+[u'38.245511', u'-85.717434']
+None
+[u'54.651261', u'-5.947070']
+None
+[u'54.644042', u'-5.951156']
+[u'54.644433', u'-5.949568']
+None
+[u'38.246994', u'-85.710643']
+[u'38.246994', u'-85.710643']
+[u'38.246994', u'-85.710643']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.646227', u'-5.942358']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.642347', u'-5.942402']
+[u'54.645730', u'-5.949869']
+[u'54.662066', u'-5.910601']
+[u'54.648213', u'-5.960254']
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.646475', u'-5.964074']
+[u'54.647344', u'-5.962529']
+[u'54.643967', u'-5.958409']
+None
+[u'54.608795', u'-5.924334']
+None
+[u'54.644836', u'-5.950984']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.644687', u'-5.950384']
+[u'54.641310', u'-5.955533']
+[u'54.644538', u'-5.963516']
+None
+[u'54.657352', u'-5.943925']
+[u'54.657325', u'-5.943917']
+[u'54.657305', u'-5.943942']
+[u'54.656697', u'-5.943006']
+[u'54.656791', u'-5.943670']
+[u'54.656777', u'-5.943645']
+[u'54.656700', u'-5.943898']
+[u'54.655552', u'-5.944267']
+[u'54.655691', u'-5.944948']
+[u'54.655602', u'-5.944939']
+[u'54.651469', u'-5.943706']
+[u'54.651016', u'-5.943701']
+[u'54.651008', u'-5.943687']
+[u'54.651008', u'-5.943687']
+[u'54.649700', u'-5.944020']
+[u'54.649747', u'-5.945667']
+[u'54.649777', u'-5.945812']
+[u'54.649777', u'-5.945812']
+[u'54.649750', u'-5.945978']
+[u'54.649794', u'-5.945920']
+[u'54.649758', u'-5.945925']
+[u'54.649794', u'-5.945920']
+[u'54.649711', u'-5.946017']
+[u'54.649722', u'-5.946153']
+[u'54.649741', u'-5.946039']
+[u'54.649758', u'-5.945967']
+[u'54.649758', u'-5.945967']
+[u'54.649727', u'-5.946003']
+[u'54.649711', u'-5.946003']
+[u'54.649722', u'-5.945962']
+[u'54.649722', u'-5.945962']
+[u'54.649750', u'-5.945798']
+[u'54.649772', u'-5.946003']
+[u'54.657188', u'-5.943853']
+[u'54.649741', u'-5.946117']
+[u'54.649777', u'-5.945948']
+[u'54.644960', u'-5.950126']
+[u'54.644662', u'-5.950298']
+[u'54.641044', u'-5.961003']
+[u'54.645060', u'-5.950019']
+None
+[u'54.647773', u'-5.948163']
+None
+None
+None
+None
+None
+None
+[u'54.636937', u'-5.887622']
+None
+[u'54.642979', u'-5.959782']
+[u'54.643793', u'-5.950899']
+None
+None
+[u'54.639211', u'-5.960576']
+[u'51.259826', u'0.515477']
+None
+[u'54.644588', u'-5.953259']
+[u'54.644762', u'-5.943388']
+[u'54.643346', u'-5.943560']
+None
+[u'54.644066', u'-5.962872']
+[u'38.245131', u'-85.723292']
+[u'54.627201', u'-5.923776']
+[u'54.643719', u'-5.950405']
+[u'54.681498', u'-5.882663']
+[u'54.639605', u'-5.951509']
+None
+[u'54.639605', u'-5.951509']
+[u'54.644141', u'-5.951414']
+[u'54.642552', u'-5.952873']
+[u'54.643843', u'-5.950899']
+[u'54.644588', u'-5.946393']
+None
+[u'54.643967', u'-5.950512']
+None
+None
+[u'54.644191', u'-5.950856']
+None
+[u'54.643793', u'-5.952658']
+[u'54.645035', u'-5.950298']
+[u'54.644489', u'-5.950298']
+None
+[u'54.644458', u'-5.948903']
+[u'54.644017', u'-5.942873']
+None
+None
+[u'54.644066', u'-5.962872']
+[u'54.643446', u'-5.943539']
+[u'54.644191', u'-5.951027']
+[u'54.645184', u'-5.950856']
+None
+None
+None
+[u'54.647617', u'-5.950384']
+None
+[u'54.643967', u'-5.953388']
+[u'54.644389', u'-5.949654']
+[u'54.644066', u'-5.950834']
+None
+[u'54.644042', u'-5.950384']
+[u'54.647617', u'-5.950384']
+[u'54.644203', u'-5.951199']
+[u'54.647742', u'-5.949053']
+None
+[u'54.643893', u'-5.950684']
+[u'54.644017', u'-5.951800']
+[u'54.644017', u'-5.952401']
+[u'54.645532', u'-5.949611']
+[u'54.643967', u'-5.957593']
+[u'54.643967', u'-5.957593']
+[u'54.644439', u'-5.951650']
+[u'54.644513', u'-5.953216']
+[u'54.639211', u'-5.960576']
+None
+[u'54.637994', u'-5.947294']
+[u'54.647158', u'-5.936651']
+None
+None
+None
+None
+None
+None
+[u'54.639149', u'-5.958280']
+[u'54.644712', u'-5.943946']
+[u'54.644166', u'-5.951585']
+None
+None
+[u'54.646575', u'-5.963215']
+[u'54.645631', u'-5.948066']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.640782', u'-5.942487']
+None
+[u'54.643992', u'-5.950469']
+[u'54.640124', u'-5.956445']
+[u'54.650100', u'-5.949010']
+[u'54.645929', u'-5.953559']
+None
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.642527', u'-5.942316']
+[u'54.646128', u'-5.949697']
+[u'54.644240', u'-5.951156']
+[u'54.650249', u'-5.948152']
+None
+[u'54.645134', u'-5.955662']
+[u'54.643719', u'-5.955061']
+[u'54.706424', u'-5.947337']
+[u'54.645532', u'-5.949611']
+[u'54.643843', u'-5.950341']
+[u'54.641186', u'-5.962743']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.643607', u'-5.951478']
+[u'54.644017', u'-5.952401']
+None
+[u'54.644563', u'-5.951242']
+None
+None
+[u'38.245124', u'-85.714474']
+[u'54.640745', u'-5.961198']
+None
+None
+None
+None
+None
+None
+None
+[u'54.645432', u'-5.953130']
+[u'54.645780', u'-5.953645']
+None
+None
+None
+[u'54.648511', u'-5.948410']
+[u'54.644042', u'-5.952873']
+[u'54.657822', u'-5.952873']
+[u'54.643989', u'-5.956563']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.644340', u'-5.952873']
+[u'54.643793', u'-5.950813']
+[u'54.649008', u'-5.949096']
+[u'54.654321', u'-5.912618']
+[u'54.644240', u'-5.950126']
+None
+[u'54.619449', u'-5.943603']
+[u'54.647617', u'-5.949182']
+None
+[u'54.647866', u'-5.949010']
+[u'54.644191', u'-5.952358']
+[u'54.643992', u'-5.954504']
+[u'54.642502', u'-5.942273']
+[u'54.646575', u'-5.948667']
+[u'54.640635', u'-5.957674']
+[u'54.643619', u'-5.951371']
+None
+[u'54.644613', u'-5.948753']
+[u'54.643619', u'-5.951328']
+[u'54.674203', u'-5.895109']
+[u'54.645283', u'-5.951714']
+[u'54.647031', u'-5.947895']
+[u'54.644513', u'-5.949096']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'55.247570', u'-6.480560']
+[u'54.645730', u'-5.949504']
+[u'54.643793', u'-5.958044']
+[u'54.646301', u'-5.947079']
+None
+None
+[u'54.644017', u'-5.942873']
+[u'54.620931', u'-5.944967']
+None
+None
+None
+[u'54.643868', u'-5.950298']
+[u'54.646935', u'-5.948581']
+None
+None
+None
+None
+None
+None
+None
+[u'54.644655', u'-5.952014']
+[u'54.645730', u'-5.946435']
+None
+None
+None
+[u'54.644906', u'-5.949091']
+[u'54.645204', u'-5.947632']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.644439', u'-5.953559']
+None
+[u'54.619921', u'-5.920944']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.638739', u'-5.937702']
+[u'54.642725', u'-5.953645']
+[u'54.643495', u'-5.950555']
+None
+None
+None
+None
+[u'54.643197', u'-5.943689']
+[u'54.641956', u'-5.942058']
+[u'54.644029', u'-5.943002']
+None
+None
+None
+[u'54.644625', u'-5.949697']
+None
+[u'54.636256', u'-5.948989']
+[u'54.641803', u'-5.942831']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.646277', u'-5.947122']
+[u'38.246438', u'-85.716490']
+[u'38.246438', u'-85.716490']
+[u'38.246438', u'-85.716490']
+[u'38.246438', u'-85.716490']
+None
+None
+[u'54.643744', u'-5.953001']
+[u'54.644116', u'-5.950083']
+[u'54.644042', u'-5.951156']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.710689', u'-5.879230']
+[u'54.643495', u'-5.950770']
+[u'54.644042', u'-5.951049']
+[u'54.644464', u'-5.949482']
+[u'54.647740', u'-5.942058']
+[u'54.672566', u'-5.910923']
+[u'54.643483', u'-5.947465']
+[u'54.643630', u'-5.950727']
+None
+[u'54.638528', u'-5.947852']
+[u'54.636467', u'-5.948581']
+[u'54.641253', u'-5.962357']
+None
+[u'54.643669', u'-5.950384']
+[u'54.643793', u'-5.950641']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.644513', u'-5.948882']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.652906', u'-5.946907']
+None
+None
+None
+[u'54.644017', u'-5.951113']
+[u'54.644340', u'-5.947337']
+None
+[u'54.644464', u'-5.949997']
+None
+None
+[u'54.643644', u'-5.951499']
+None
+None
+None
+None
+[u'54.643669', u'-5.949997']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.648685', u'-5.958366']
+[u'54.646723', u'-5.950727']
+[u'54.644762', u'-5.943388']
+[u'54.641807', u'-5.942788']
+[u'54.643545', u'-5.951457']
+[u'54.644240', u'-5.949440']
+None
+[u'54.644489', u'-5.949268']
+[u'54.643210', u'-5.943710']
+None
+[u'54.645755', u'-5.944354']
+[u'54.645842', u'-5.943260']
+None
+[u'54.643098', u'-5.942144']
+[u'54.643694', u'-5.946950']
+None
+None
+[u'54.644240', u'-5.949954']
+[u'54.644675', u'-5.937895']
+[u'54.645060', u'-5.944633']
+[u'54.644091', u'-5.947251']
+[u'54.644191', u'-5.947465']
+None
+None
+None
+[u'54.647046', u'-5.947637']
+[u'54.641906', u'-5.942273']
+[u'54.647965', u'-5.948925']
+[u'54.646773', u'-5.947380']
+[u'54.638479', u'-5.943002']
+[u'54.638419', u'-5.942659']
+[u'54.648015', u'-5.948753']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.643694', u'-5.951328']
+[u'54.643694', u'-5.951371']
+None
+None
+[u'54.643917', u'-5.953173']
+None
+None
+None
+None
+None
+[u'54.643768', u'-5.952315']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.642979', u'-5.959782']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603574', u'-5.913090']
+[u'54.603574', u'-5.913090']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603574', u'-5.913090']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.605874', u'-5.918422']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.602676', u'-5.921254']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+[u'54.603842', u'-5.915322']
+[u'54.603842', u'-5.915322']
+[u'54.413186', u'-6.155271']
+[u'54.413186', u'-6.155271']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603842', u'-5.915322']
+[u'54.603842', u'-5.915322']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.605955', u'-5.911406']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603842', u'-5.915322']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603842', u'-5.915322']
+[u'54.603842', u'-5.915322']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+[u'54.604041', u'-5.915236']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.600790', u'-5.917677']
+[u'54.600775', u'-5.917655']
+[u'54.600759', u'-5.917559']
+[u'54.600831', u'-5.917666']
+[u'54.600809', u'-5.917623']
+[u'54.600787', u'-5.917548']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.592909', u'-5.929012']
+[u'54.592909', u'-5.929012']
+[u'54.592909', u'-5.929012']
+[u'54.592909', u'-5.929012']
+[u'54.604395', u'-5.916910']
+[u'54.600455', u'-5.920321']
+[u'54.600573', u'-5.920343']
+None
+None
+[u'54.602972', u'-5.914807']
+[u'54.593773', u'-5.934741']
+[u'54.603582', u'-5.916683']
+[u'54.603582', u'-5.916683']
+[u'54.603582', u'-5.916683']
+[u'54.604021', u'-5.914281']
+[u'54.604021', u'-5.914281']
+[u'54.604021', u'-5.914281']
+[u'54.604021', u'-5.914281']
+[u'54.604021', u'-5.914281']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+[u'54.600788', u'-5.924193']
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+[u'54.604090', u'-5.915966']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.603724', u'-5.914163']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.604016', u'-5.916534']
+None
+None
+None
+None
+None
+[u'54.543393', u'-5.982742']
+None
+None
+None
+None
+None
+None
+None
+[u'54.540013', u'-5.982952']
+[u'54.540903', u'-5.983428']
+[u'54.541102', u'-5.984973']
+[u'54.542696', u'-5.985231']
+[u'54.542696', u'-5.985231']
+[u'54.542696', u'-5.985231']
+[u'54.542696', u'-5.985231']
+[u'54.542696', u'-5.985231']
+None
+None
+None
+None
+None
+[u'54.542048', u'-5.979566']
+None
+None
+None
+[u'54.541924', u'-5.979909']
+[u'54.541949', u'-5.979824']
+[u'54.542173', u'-5.980682']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.542851', u'-5.981057']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.540555', u'-5.982398']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.540953', u'-5.983278']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.540754', u'-5.982484']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.541419', u'-5.984031']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.598360', u'-5.925235']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+[u'54.598360', u'-5.925235']
+None
+None
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598298', u'-5.926501']
+[u'54.598298', u'-5.926501']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598429', u'-5.924060']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+[u'54.598360', u'-5.925300']
+None
+None
+None
+None
+None
+None
+None
+[u'54.598665', u'-5.926759']
+[u'54.598665', u'-5.926759']
+[u'54.598366', u'-5.925922']
+[u'54.598565', u'-5.926673']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+None
+None
+[u'54.634182', u'-5.941200']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.656109', u'-5.942938']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.657822', u'-5.952873']
+[u'54.649207', u'-5.949954']
+None
+None
+None
+[u'54.661620', u'-5.945405']
+[u'54.661620', u'-5.945405']
+[u'54.652155', u'-5.942949']
+[u'54.654936', u'-5.943657']
+[u'54.654290', u'-5.940974']
+[u'54.656146', u'-5.941672']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+[u'54.654582', u'-5.942723']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.656109', u'-5.942938']
+[u'54.656109', u'-5.942938']
+[u'54.656109', u'-5.942938']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.655383', u'-5.944161']
+[u'54.654340', u'-5.944215']
+[u'54.654340', u'-5.944215']
+[u'54.654340', u'-5.944215']
+[u'54.654340', u'-5.944215']
+[u'54.653750', u'-5.943700']
+[u'54.653750', u'-5.943700']
+[u'54.653427', u'-5.943431']
+[u'54.653427', u'-5.943431']
+[u'54.654936', u'-5.943657']
+[u'54.654936', u'-5.943657']
+[u'54.654936', u'-5.943657']
+[u'54.654936', u'-5.943657']
+[u'54.654172', u'-5.942305']
+[u'54.654172', u'-5.942305']
+[u'54.654116', u'-5.941640']
+[u'54.654116', u'-5.941640']
+[u'54.654290', u'-5.940974']
+[u'54.654290', u'-5.940974']
+[u'54.654290', u'-5.940974']
+[u'54.654290', u'-5.940974']
+[u'54.654290', u'-5.940974']
+[u'54.654290', u'-5.940974']
+[u'54.654526', u'-5.943013']
+[u'54.656146', u'-5.941672']
+[u'54.656146', u'-5.941672']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.654023', u'-5.958280']
+[u'54.652633', u'-5.956563']
+[u'54.652633', u'-5.956563']
+[u'54.656407', u'-5.956993']
+None
+[u'54.656233', u'-5.942187']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.654911', u'-5.942326']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.657027', u'-5.943646']
+[u'54.654619', u'-5.954847']
+[u'54.651541', u'-5.954675']
+[u'54.652881', u'-5.952873']
+[u'54.654023', u'-5.958280']
+[u'54.652633', u'-5.956563']
+[u'54.656407', u'-5.956993']
+[u'54.654749', u'-5.942198']
+[u'54.654526', u'-5.943013']
+[u'54.654290', u'-5.940974']
+[u'54.654116', u'-5.941640']
+[u'54.654129', u'-5.941683']
+[u'54.654092', u'-5.941640']
+[u'54.654129', u'-5.941661']
+[u'54.654327', u'-5.941103']
+[u'54.654278', u'-5.941017']
+[u'54.654290', u'-5.940974']
+[u'54.656202', u'-5.940942']
+[u'54.654116', u'-5.941640']
+[u'54.656202', u'-5.940942']
+[u'54.652676', u'-5.942498']
+[u'54.652441', u'-5.942541']
+[u'54.652366', u'-5.942605']
+[u'54.652329', u'-5.942627']
+[u'54.654290', u'-5.940974']
+[u'54.654936', u'-5.943657']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.656255', u'-5.941551']
+[u'54.655488', u'-5.944397']
+[u'54.655488', u'-5.944139']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+[u'54.660887', u'-5.945684']
+[u'54.656109', u'-5.942938']
+[u'54.654371', u'-5.943539']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+[u'54.658542', u'-5.945062']
+None
+None
+None
+None
+[u'54.595599', u'-5.933199']
+None
+[u'54.655968', u'-5.942723']
+[u'54.653791', u'-5.940620']
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None

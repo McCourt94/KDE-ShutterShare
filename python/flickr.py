@@ -303,20 +303,6 @@ class Photo(object):
 
         """
         return Exif.getExif(self.id)
-        
-    def getLocation(self):
-        """
-        Return the latitude+longitutde of the picture.
-        Returns None if no location given for this pic.
-        """
-        method = 'flickr.photos.geo.getLocation'
-        try:
-            #print self.id
-            data = _doget(method, photo_id=self.id)
-        except FlickrError: # Some other error might have occured too!?
-            return None
-        loc = data.rsp.photo.location
-        return [loc.latitude, loc.longitude]
     
     def tags_getListPhoto(self):
         method = 'flickr.tags.getListPhoto'
@@ -1147,6 +1133,15 @@ def tags_getPhotoTags(tag):
         return [tag.raw for tag in data.rsp.photo.tags.tag]
     else:
         return [data.rsp.photo.tags.tag.raw]
+    
+def location_getPhotoLocation(id):
+    method = 'flickr.photos.geo.getLocation'
+    try:
+        data = _doget(method,auth=False, photo_id=id)
+        loc = data.rsp.photo.location
+        return [loc.latitude, loc.longitude]
+    except FlickrError:
+        return None
 
 def contacts_getPublicList(user_id):
     """Gets the contacts (Users) for the user_id"""

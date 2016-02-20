@@ -2,7 +2,6 @@
 import sys
 import shutil
 import urllib
- 
 import flickr
  
 NUMBER_OF_IMAGES = 150
@@ -22,7 +21,8 @@ def get_related_tags():
         lines = f.readlines()
     
     line_number = 0
-    for line_number in range(0,10):
+    for line_number in lines:
+        print line_number
         try:
             file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a')
             file.close()
@@ -31,10 +31,24 @@ def get_related_tags():
             sys.exit(0)
             
         with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a') as t:
-            t.write(str(flickr.tags_getPhotoTags(lines[line_number]))+"\n")
-        
-        
-
+            t.write(str(flickr.tags_getPhotoTags(line_number))+"\n")
+               
+def get_related_geodata():
+    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt') as f:
+        lines = f.readlines()
+    
+    line_number = 0
+    for line_number in lines:
+        try:
+            file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/geo_data.txt",'a')
+            file.close()
+        except:
+            print("Could not create file")
+            sys.exit(0)
+            
+        with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/geo_data.txt",'a') as t:
+            t.write(str(flickr.location_getPhotoLocation(line_number))+"\n")
+                        
 def get_urls_for_tags(tags, number):
     page_number = 1
     photos = []
@@ -57,7 +71,6 @@ def get_image_id(urls):
         ids.append(photo_id)
     return ids
             
-
 def print_image_id(IDS):
     try:
         file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt",'a')
@@ -92,18 +105,12 @@ def main(*argv):
     for item in args:
         tags.append(item)
     
-    print tags
-#     urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
-#     ids = get_image_id(urls)
-#     print_image_url(urls)
-#     print_image_id(ids)
-    
+    urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
+    ids = get_image_id(urls)
+    print_image_url(urls)
+    print_image_id(ids)    
     tag = get_related_tags()
-    #print tag
-    
-    
-    
-
+    location = get_related_geodata()
  
 if __name__ == '__main__':
     sys.exit(main(*sys.argv))
