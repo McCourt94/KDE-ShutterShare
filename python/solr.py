@@ -14,7 +14,7 @@ def solr(data):
     
     solr.add(data)
 
-    results = solr.search('Zoo',**{
+    results = solr.search('Belfast',**{
                 'hl': 'true',
                 'hl.fragsize': 100,
                 'rows': 100,
