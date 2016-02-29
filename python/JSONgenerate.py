@@ -52,37 +52,41 @@ def read_image_url():
     
     return images
 
-def generate(id,url,tags,geo,**photo_dictionary):
+def generate(i,u,desc,geo_lat,geo_lon):
     images = []
-    for i in range(0,len(id)):
-        photo_dictionary['ID']=id[i]
-        photo_dictionary['URL']=url[i]
-        photo_dictionary['TAGS']=tags[i]
-        location = geo[i].split()
-        if 'None' in location:
-            photo_dictionary['LATITUDE']='None'
-            photo_dictionary['LONGTITUDE']='None'
-        else:
-            photo_dictionary['LATITUDE']=location[0]
-            photo_dictionary['LONGTITUDE']=location[1]              
-        images.append(photo_dictionary.copy())  
+    for j in range(0,len(i)):
+        photos_dict={ 'id': '',
+                    'url':'',
+                    'description':{},
+                    'location':{'lat':'','lon':''},}
+        photos_dict['id']=i[j]
+        photos_dict['url']=u[j]
+        photos_dict['description']=desc[j]
+        photos_dict['location']['lat'] = geo_lat[j]
+        photos_dict['location']['lon']=geo_lon[j]       
+        images.append(photos_dict) 
                     
     return images
 
-def main():
-    
-    photos_dictionary={ 'ID': '',
-                        'URL':'',
-                        'TAGS':[],
-                        'LATITUDE':'',
-                        'LONGTITUDE':''}
-    
+def main():  
     
     image_ids = read_image_ids()
     image_tags = read_image_tags()
     image_geo_data = read_image_geo()
+    geo_data_lat = []
+    geo_data_lon = []
+    for i in image_geo_data:
+        if 'None' in i:
+            geo_data_lat.append(i)
+            geo_data_lon.append(i)
+        else:
+            i.encode('ascii')
+            data = str.split(i,',')
+            geo_data_lat.append(str(data[0]).replace('[','').replace('u',''))
+            geo_data_lon.append(str(data[1]).replace(']','').replace('u','').replace(' ',''))
     image_url = read_image_url()
-    JSON = generate(image_ids, image_url, image_tags, image_geo_data,**photos_dictionary)
+    JSON = generate(image_ids, image_url, image_tags, geo_data_lat, geo_data_lon)
+           
     
     with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_json.json", "w") as outfile:
         json.dump(JSON, outfile, indent=4)
