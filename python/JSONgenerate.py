@@ -9,6 +9,7 @@ import shutil
 import urllib
 import pprint
 from ast import literal_eval
+import os
 
 def traverse(o, tree_types=(list, tuple)):
     if isinstance(o, tree_types):
@@ -20,7 +21,7 @@ def traverse(o, tree_types=(list, tuple)):
  
 def read_image_ids():
     lines =  list()
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt') as f:
+    with open(os.getcwd()+'image_ids.txt') as f:
         lines = f.readlines()
     
     images = [i.replace('\n',"") for i in lines]
@@ -28,7 +29,7 @@ def read_image_ids():
 
 def read_image_tags():
     lines=list()
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt') as f:
+    with open(os.getcwd()+'tags.txt') as f:
         lines = f.readlines()
     
     images = [i.replace('\n',"") for i in lines]
@@ -36,7 +37,7 @@ def read_image_tags():
 
 def read_image_geo():
     lines=list()
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/geo_data.txt') as f:
+    with open(os.getcwd()+'geo_data.txt') as f:
         lines = f.readlines()
     
     images = [i.replace('\n',"") for i in lines]
@@ -45,7 +46,7 @@ def read_image_geo():
     
 def read_image_url():
     lines=list()
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/urls.txt') as f:
+    with open(os.getcwd()+'urls.txt') as f:
         lines = f.readlines()
     
     images = [i.replace('\n',"") for i in lines]
@@ -88,7 +89,7 @@ def main():
     JSON = generate(image_ids, image_url, image_tags, geo_data_lat, geo_data_lon)
            
     
-    with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_json.json", "w") as outfile:
+    with open(os.getcwd()+"image_json.json", "w") as outfile:
         json.dump(JSON, outfile, indent=4)
 
 

@@ -3,6 +3,7 @@ import sys
 import shutil
 import urllib
 import flickr
+import os
  
 NUMBER_OF_IMAGES = 150
 # page = 1
@@ -17,36 +18,36 @@ def traverse(o, tree_types=(list, tuple)):
         yield o
         
 def get_related_tags():
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt') as f:
+    with open(os.getcwd()+'image_ids.txt') as f:
         lines = f.readlines()
     
     line_number = 0
     for line_number in lines:
         print line_number
         try:
-            file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a')
+            file = open(os.getcwd()+"tags.txt",'a')
             file.close()
         except:
             print("Could not create file")
             sys.exit(0)
             
-        with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/tags.txt",'a') as t:
+        with open(os.getcwd()+"tags.txt",'a') as t:
             t.write(str(flickr.tags_getPhotoTags(line_number))+"\n")
                
 def get_related_geodata():
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt') as f:
+    with open(os.getcwd()+"image_ids.txt") as f:
         lines = f.readlines()
     
     line_number = 0
     for line_number in lines:
         try:
-            file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/geo_data.txt",'a')
+            file = open(os.getcwd()+"geo_data.txt",'a')
             file.close()
         except:
             print("Could not create file")
             sys.exit(0)
             
-        with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/geo_data.txt",'a') as t:
+        with open(os.getcwd()+"geo_data.txt",'a') as t:
             t.write(str(flickr.location_getPhotoLocation(line_number))+"\n")
                         
 def get_urls_for_tags(tags, number):
@@ -73,25 +74,25 @@ def get_image_id(urls):
             
 def print_image_id(IDS):
     try:
-        file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt",'a')
+        file = open(os.getcwd()+"image_ids.txt",'a')
         file.close()
     except:
         print("Could not create file")
         sys.exit(0)
         
-    with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_ids.txt",'a') as f:
+    with open(os.getcwd()+"image_ids.txt",'a') as f:
         for ID in IDS:
             f.write(str(ID)+'\n')
 
 def print_image_url(URLS):
     try:
-        file = open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/URLS.txt",'a')
+        file = open(os.getcwd()+"URLS.txt",'a')
         file.close()
     except:
         print("Could not create file")
         sys.exit(0)
         
-    with open("C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/URLS.txt",'a') as f:
+    with open(os.getcwd()+"URLS.txt",'a') as f:
         for URL in URLS:
             f.write(str(URL)+'\n')
                 

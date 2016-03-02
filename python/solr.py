@@ -8,6 +8,7 @@ import pysolr
 import json
 from pprint import pprint
 import sys
+import os
 
 def solr(data):
     solr = pysolr.Solr('http://localhost:8983/solr/test')
@@ -27,7 +28,7 @@ def solr(data):
     
     
 def main():
-    with open('C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project\python/image_json.json') as data_file:    
+    with open(os.cwd()+'image_json.json') as data_file:    
         data = json.load(data_file)
     
     
