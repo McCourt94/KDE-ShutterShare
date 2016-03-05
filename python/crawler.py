@@ -4,10 +4,9 @@ import shutil
 import urllib
 import flickr
 import os
+import glob
  
 NUMBER_OF_IMAGES = 150
-# page = 1
-# per_page=number
  
 def traverse(o, tree_types=(list, tuple)):
     if isinstance(o, tree_types):
@@ -17,37 +16,37 @@ def traverse(o, tree_types=(list, tuple)):
     else:
         yield o
         
-def get_related_tags():
-    with open(os.getcwd()+'image_ids.txt') as f:
+def get_related_tags(path):
+    with open(path+'image_ids.txt') as f:
         lines = f.readlines()
     
     line_number = 0
     for line_number in lines:
         print line_number
         try:
-            file = open(os.getcwd()+"tags.txt",'a')
+            file = open(path+"tags.txt",'a')
             file.close()
         except:
             print("Could not create file")
             sys.exit(0)
             
-        with open(os.getcwd()+"tags.txt",'a') as t:
+        with open(path+"tags.txt",'a') as t:
             t.write(str(flickr.tags_getPhotoTags(line_number))+"\n")
                
-def get_related_geodata():
-    with open(os.getcwd()+"image_ids.txt") as f:
+def get_related_geodata(path):
+    with open(path+"image_ids.txt") as f:
         lines = f.readlines()
     
     line_number = 0
     for line_number in lines:
         try:
-            file = open(os.getcwd()+"geo_data.txt",'a')
+            file = open(path+"geo_data.txt",'a')
             file.close()
         except:
             print("Could not create file")
             sys.exit(0)
             
-        with open(os.getcwd()+"geo_data.txt",'a') as t:
+        with open(path+"geo_data.txt",'a') as t:
             t.write(str(flickr.location_getPhotoLocation(line_number))+"\n")
                         
 def get_urls_for_tags(tags, number):
@@ -72,9 +71,9 @@ def get_image_id(urls):
         ids.append(photo_id)
     return ids
             
-def print_image_id(IDS):
+def print_image_id(path,IDS):
     try:
-        file = open(os.getcwd()+"image_ids.txt",'a')
+        file = open(path+"image_ids.txt",'a')
         file.close()
     except:
         print("Could not create file")
@@ -84,9 +83,9 @@ def print_image_id(IDS):
         for ID in IDS:
             f.write(str(ID)+'\n')
 
-def print_image_url(URLS):
+def print_image_url(URLS,path):
     try:
-        file = open(os.getcwd()+"URLS.txt",'a')
+        file = open(path+"URLS.txt",'a')
         file.close()
     except:
         print("Could not create file")
@@ -101,17 +100,20 @@ def main(*argv):
     if len(args) == 0:
         print "You must specify at least one tag"
         return 1
-
+    
+    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/"
+    glob.glob(path_to_files)
+    
     tags = []
     for item in args:
         tags.append(item)
     
     urls = get_urls_for_tags(tags, NUMBER_OF_IMAGES)
     ids = get_image_id(urls)
-    print_image_url(urls)
-    print_image_id(ids)    
-    tag = get_related_tags()
-    location = get_related_geodata()
+    print_image_url(path_to_files,urls)
+    print_image_id(path_to_files,ids)    
+    tag = get_related_tags(path_to_files)
+    location = get_related_geodata(path_to_files)
  
 if __name__ == '__main__':
     sys.exit(main(*sys.argv))
