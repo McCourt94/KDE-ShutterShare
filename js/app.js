@@ -1,6 +1,6 @@
 shuttershareApp = angular.module('shuttershareApp', ['ngMaterial','ngRoute']);
 
-shuttershareApp.controller('shuttershareController', function($scope,$http){
+shuttershareApp.controller('shuttershareController', function($scope,$http,$rootScope){
 	console.log("loaded controller");
 	$scope.search = function(){
 
@@ -14,6 +14,7 @@ shuttershareApp.controller('shuttershareController', function($scope,$http){
             }).then(function (response) {
                 // this callback will be called asynchronously
                 // when the response is available
+                $rootScope.images = response.data
                 console.log(response.data);
                 $scope.tag=''
             }, function (response) {

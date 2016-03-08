@@ -1,17 +1,22 @@
 (function load(app){
-  app.controller('AppCtrl', function($scope) {
-    var IMAGES = [
+  app.controller('AppCtrl', function($scope, $rootScope) {
+    $rootScope.images = [
     ];
-    $scope.tiles = []
-    for (var i = 0; i < 100; i++) {
-    $scope.tiles.push({
-        src: randomImage(),
-        colspan: randomSpan(),
-        rowspan: randomSpan()
-      })
-    }
+    $scope.tiles = [];
+    $rootScope.$watch('images',function(){
+        console.log("updated images");
+        $scope.tiles = [];
+        for (var i = 0; i < 100; i++) {
+            $scope.tiles.push({
+             src: randomImage(),
+                colspan: randomSpan(),
+                rowspan: randomSpan()
+            })
+        }
+    });
+    
     function randomImage(){
-      return IMAGES[Math.floor(Math.random() * IMAGES.length)];
+      return $rootScope.images[Math.floor(Math.random() * $rootScope.images.length)];
     }  
     function randomSpan() {
       var r = Math.random();
