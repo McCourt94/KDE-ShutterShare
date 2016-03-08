@@ -37,7 +37,7 @@ body{
 
 #city-search-box{
 	flex:1;
-	max-height:70px;
+	max-height:50px;
 }
 
 #tag-search-box{

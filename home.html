@@ -16,12 +16,12 @@
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <!--GOOGLE API!-->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
         <!--MY JAVASCRIPT!-->        
         <script type="text/javascript" src ="js/map-script.js"></script>
         <script type="text/javascript" src ="js/grid.js"></script>
-        <script type-"text/javascript" src = "js/slider.js"></script>
         
     </head>
     	<body ng-controller="shuttershareController">
@@ -41,34 +41,18 @@
                         </div>
                         <div id = "city-search-box">
                             <form action"#" name="city-search">
-                                <input type="text" name="city-search" ng-model="city" placeholder="What city are you searching?">
+                                <input type="text" name="city-search" ng-model="tag" placeholder="What are you searching?">
                                 {{city}}
                             </form>
                         </div>
-                        <div id = "tag-search-box">
-                            <form action="#" name="tag-search">
-                                <input type="text" name="tag-search" ng-model="tag" placeholder="What are you searching for?">
-                                {{tag}}
-                            </form>
-                        </div>
                         <div ng-controller="AppCtrl" ng-cloak>
-                            <md-content style = "padding-right:16px; padding-top:20px; background:transparent; color:blue">
+                            <md-content style = "flex: 1; padding-right:16px; padding-top:20px; background:transparent; color:blue">
                                 <div layout>
                                     <div flex="6" layout layout-align="left left">
                                     </div>
-                                    <md-slider flex md-discrete ng-model="distance1" step="1" min="0" max="15" aria-label="distance">
+                                    <md-slider flex md-discrete ng-model="distance1" step="1km" min="0" max="15" aria-label="distance">
                                     </md-slider>
                                     {{distance1}}
-                                </div>
-                        </div>
-                        <div ng-controller="AppCtrl" ng-cloak>
-                            <md-content style = "padding-right:16px; padding-top:20px; background:transparent; color:blue"> 
-                                <div layout>
-                                    <div flex="6" layout layout-align="left left">
-                                    </div>
-                                    <md-slider flex md-discrete ng-model="time1" step="1" min="2000" max="2016" aria-label="time">
-                                    </md-slider>
-                                    {{time1}}
                                 </div>
                         </div>
                         <div id = "button">

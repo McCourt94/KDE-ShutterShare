@@ -101,7 +101,7 @@ def main(*argv):
         print "You must specify at least one tag"
         return 1
     
-    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/"
+    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/data/"
     glob.glob(path_to_files)
     
     tags = []
