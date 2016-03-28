@@ -43,10 +43,12 @@ def main(*argv):
         for item in args:
             search_item.append(item)
             
-        path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/data/"
-        glob.glob(path_to_files)
+        JSON = "/python/data/image_json.json"
+    
+        path_to_files = os.getcwd()+JSON
+    
         
-        with open(path_to_files+'image_json.json') as data_file:    
+        with open(path_to_files) as data_file:    
             data = json.load(data_file)
 
         test = solr(search_item,data)

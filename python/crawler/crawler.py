@@ -91,7 +91,7 @@ def print_image_url(URLS,path):
         print("Could not create file")
         sys.exit(0)
         
-    with open(os.getcwd()+"URLS.txt",'a') as f:
+    with open(path+"URLS.txt",'a') as f:
         for URL in URLS:
             f.write(str(URL)+'\n')
                 
@@ -101,9 +101,8 @@ def main(*argv):
         print "You must specify at least one tag"
         return 1
     
-    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/data/"
-    glob.glob(path_to_files)
     
+    path_to_files = os.getcwd()+'/python/data/'
     tags = []
     for item in args:
         tags.append(item)

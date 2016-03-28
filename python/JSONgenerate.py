@@ -73,12 +73,13 @@ def generate(i,u,desc,geo_lat,geo_lon):
 def main():  
     
     
-    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/data/"
-    glob.glob(path_to_files)
+    JSON = "/python/data/image_json.json"
     
-    image_ids = read_image_ids(path_to_files)
-    image_tags = read_image_tags(path_to_files)
-    image_geo_data = read_image_geo(path_to_files)
+    path_to_files = os.getcwd()+JSON
+    
+    image_ids = read_image_ids(os.getcwd()+'/python/data/')
+    image_tags = read_image_tags(os.getcwd()+'/python/data/')
+    image_geo_data = read_image_geo(os.getcwd()+'/python/data/')
     geo_data_lat = []
     geo_data_lon = []
     for i in image_geo_data:
@@ -90,11 +91,11 @@ def main():
             data = str.split(i,',')
             geo_data_lat.append(float(str(data[0]).replace('[','').replace('u','').replace("'","").replace(",","")))
             geo_data_lon.append(float(str(data[1]).replace(']','').replace('u','').replace(' ','').replace("'","")))
-    image_url = read_image_url(path_to_files)
+    image_url = read_image_url(os.getcwd()+'/python/data/')
     JSON = generate(image_ids, image_url, image_tags, geo_data_lat, geo_data_lon)
            
     
-    with open(path_to_files+"image_json.json", "w") as outfile:
+    with open(path_to_files, "w") as outfile:
         json.dump(JSON, outfile, indent=4)
 
 

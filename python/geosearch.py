@@ -1,5 +1,5 @@
 import numpy
-import sys
+import sys,os.path
 import glob, json
 from numpy import array
 from itertools import islice
@@ -22,24 +22,25 @@ def find_distance(myLocation,arraySearch,radius):
 def main():
     myArray =[]
     
-    path_to_files ="C:/Users/Stephen McCourt/Desktop/Final Year University/Computer Project/Knowledge & Data Engineering Project/python/data/"
-    glob.glob(path_to_files)
+    JSON = "/python/data/image_json.json"
     
-    with open(path_to_files+'image_json.json') as data_file:    
+    path_to_files = os.getcwd()+JSON
+    
+    with open(path_to_files) as data_file:    
         data = json.load(data_file)
     
     for coords in data:
-        if coords['location']['lat'] == 'None':
-            print ""
-        else:
+        if coords['location']['lat'] != 'None':
             myArray.append((coords['location']['lon'],coords['location']['lat'],coords['url']))
-    
-    
+             
+     
+     
     print len(myArray)
     myLocation = (54.585369,-5.93285)
     radius = 1
     matches = find_distance(myLocation, myArray, radius)      
-    print len(matches)
+    
+    print json.dumps(matches)
     
 if __name__ == '__main__':
     sys.exit(main()) 
