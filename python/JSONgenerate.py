@@ -1,6 +1,5 @@
 '''
 Created on Feb 18, 2016
-
 @author: Stephen McCourt
 '''
 import json
@@ -89,8 +88,8 @@ def main():
         else:
             i.encode('ascii')
             data = str.split(i,',')
-            geo_data_lat.append(str(data[0]).replace('[','').replace('u',''))
-            geo_data_lon.append(str(data[1]).replace(']','').replace('u','').replace(' ',''))
+            geo_data_lat.append(float(str(data[0]).replace('[','').replace('u','').replace("'","").replace(",","")))
+            geo_data_lon.append(float(str(data[1]).replace(']','').replace('u','').replace(' ','').replace("'","")))
     image_url = read_image_url(path_to_files)
     JSON = generate(image_ids, image_url, image_tags, geo_data_lat, geo_data_lon)
            
