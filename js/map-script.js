@@ -11,6 +11,7 @@ var watchId = null;
             alert('Geolocation is not supported in your browser');
     }
     }
+    
 
 function showPosition(position) {
         var googlePos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -23,10 +24,27 @@ function showPosition(position) {
         };
         var mapObj = document.getElementById('mapholder');
         var googleMap = new google.maps.Map(mapObj, mapOptions);
+        google.maps.event.addListener(googleMap, "rightclick", function(event) {
+            var lat = event.latLng.lat();
+            var lng = event.latLng.lng();
+            var pinColor = "3F51B5";
+            var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor);
+            var googlePosNew = new google.maps.LatLng(lat,lng);
+            var markerOpt = {
+                map : googleMap,
+                position : googlePosNew,
+                icon:pinImage,
+                animation : google.maps.Animation.DROP
+            };
+            var googleMarker = new google.maps.Marker(markerOpt);
+            // populate yor box/field with lat, lng
+            console.log(lat,lng);
+            
+        });
         var markerOpt = {
             map : googleMap,
             position : googlePos,
-            animation : google.maps.Animation.DROP
+            animation : google.maps.Animation.DROP,
         };
         var googleMarker = new google.maps.Marker(markerOpt);
         var geocoder = new google.maps.Geocoder();
@@ -51,6 +69,8 @@ function showPosition(position) {
                 }
             });
             }
+        
+
 
         function showError(error) {
             var err = document.getElementById('mapholder');

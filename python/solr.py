@@ -45,7 +45,9 @@ def main(*argv):
             
         JSON = "/python/data/image_json.json"
     
-        path_to_files = os.getcwd()+JSON
+        path_to_files = 'C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project/python/data/image_json.json'
+        
+        
     
         
         with open(path_to_files) as data_file:    

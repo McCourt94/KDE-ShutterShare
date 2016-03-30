@@ -50,14 +50,18 @@ def crossdomain(origin=None, methods=None, headers=None,
         return update_wrapper(wrapped_function, f)
     return decorator
 
-
-
-
-
 @app.route('/python/solr/<tag>')
 @crossdomain(origin='*')
 def solr(tag):
     cmd = 'python solr.py %s' % tag
+    p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
+    output = p.stdout.read()
+    return output
+
+@app.route('/python/geo_search/<location>,<radius>')
+@crossdomain(origin='*')
+def geo(location,radius):
+    cmd = 'python geosearch.py %s %s' % location,radius
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
     return output
