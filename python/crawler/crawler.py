@@ -5,17 +5,10 @@ import urllib
 import flickr
 import os
 import glob
+import utilities
  
 NUMBER_OF_IMAGES = 150
- 
-def traverse(o, tree_types=(list, tuple)):
-    if isinstance(o, tree_types):
-        for value in o:
-            for subvalue in traverse(value, tree_types):
-                yield subvalue
-    else:
-        yield o
-        
+         
 def get_related_tags(path):
     with open(path+'image_ids.txt') as f:
         lines = f.readlines()
@@ -54,7 +47,7 @@ def get_urls_for_tags(tags, number):
     photos = []
     for page_number in range(1,11):       
         photos.append(flickr.photos_search(tags=tags, per_page=number, page=page_number))
-    data = list(traverse(photos))
+    data = list(utilities.traverse(photos))
     urls = []
     for photo in data:
         try:

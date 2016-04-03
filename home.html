@@ -7,6 +7,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-aria.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script>
+        <script type="text/javascript" src="js/event.min.js"></script>
+        <script type="text/javascript" src="js/ui-map.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.css">
         <script type="text/javascript" src ="js/app.js"></script>
         <!---MY STYLE!-->
@@ -36,8 +38,8 @@
             </div>
     		<div id = "container">
     			<div id = "sidebar">
-                    <div id = "map-location-pin">
-                            <img src="images/map-location-pin.png" onClick="geoloc()" alt="Map Pin">
+                        <div id = "map-location-pin">
+                            <img src="images/map-location-pin.png" ng-click='geoLoc()' alt="Map Pin">
                         </div>
                         <div id = "city-search-box">
                             <form action"#" name="city-search">
@@ -45,23 +47,25 @@
                                 {{city}}
                             </form>
                         </div>
-                        <div ng-controller="AppCtrl" ng-cloak>
-                            <md-content style = "flex: 1; padding-right:16px; padding-top:20px; background:transparent; color:blue">
-                                <div layout>
-                                    <div flex="6" layout layout-align="left left">
-                                    </div>
-                                    <md-slider flex md-discrete ng-model="distance1" step="1km" min="0" max="15" aria-label="distance">
-                                    </md-slider>
-                                    {{distance1}}
+                        <md-content style = "flex: 1; padding-right:16px; padding-top:20px; background:transparent; color:blue">
+                            <div layout>
+                                <div flex="6" layout layout-align="left left">
                                 </div>
-                        </div>
+                                <md-slider flex md-discrete ng-model="distance" step="1"+km min="1km" max="10km" aria-label="distance">
+                                </md-slider>
+                                {{distance}}
+                            </div>
                         <div id = "button">
                             <img src ="images/submit.png" style = "height: 72px; width: 72px; float:right;" ng-click="search()" alt="submit">
                         </div>
 
                 </div>
     			<div id = "content">
-                        <div id = "mapholder"></div>
+        			     <div ng-if="showMap">
+                            <div id = "mapholder" ui-map="model.myMap" class="map" ui-options="mapOptions" >
+                                
+                            </div>
+                        </div>
                         <div ng-controller="AppCtrl as appCtrl" ng-cloak>
                             <md-content layout-padding style="height:500px; background:transparent">
                             <md-grid-list

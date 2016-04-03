@@ -6,9 +6,9 @@
     $rootScope.$watch('images',function(){
         console.log("updated images");
         $scope.tiles = [];
-        for (var i = 0; i < 100; i++) {
+        for (var i = 0; i < 50; i++) {
             $scope.tiles.push({
-             src: randomImage(),
+             src: $rootScope.images[i],
                 colspan: randomSpan(),
                 rowspan: randomSpan()
             })

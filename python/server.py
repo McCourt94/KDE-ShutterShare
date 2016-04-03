@@ -50,18 +50,33 @@ def crossdomain(origin=None, methods=None, headers=None,
         return update_wrapper(wrapped_function, f)
     return decorator
 
-@app.route('/python/solr/<tag>')
+@app.route('/python/solr/',methods=['GET'])
 @crossdomain(origin='*')
-def solr(tag):
+def solr():
+    tag = request.args.get('tag')
     cmd = 'python solr.py %s' % tag
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
     return output
 
-@app.route('/python/geo_search/<location>,<radius>')
+@app.route('/python/geo_search/',methods=['GET'])
 @crossdomain(origin='*')
-def geo(location,radius):
-    cmd = 'python geosearch.py %s %s' % location,radius
+def geo():
+    latitude = request.args.get('lat')
+    longitude = request.args.get('lon')
+    radius = request.args.get('radius')
+    cmd = 'python geosearch.py %s %s %s' % (latitude, longitude, radius)
+    p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
+    output = p.stdout.read()
+    return output
+
+@app.route('/python/geo_update/',methods=['GET'])
+@crossdomain(origin='*')
+def update_geo():
+    latitude = request.args.get('lat')
+    longitude = request.args.get('lon')
+    location = (latitude,longitude)
+    cmd = 'python geosearch.py %s %s' % (latitude, longitude)
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
     return output

@@ -4,17 +4,9 @@ import json
 from pprint import pprint
 import sys
 import os
+import utilities
 from ast import literal_eval
 import glob
-
-
-def traverse(o, tree_types=(list, tuple)):
-    if isinstance(o, tree_types):
-        for value in o:
-            for subvalue in traverse(value, tree_types):
-                yield subvalue
-    else:
-        yield o
 
 
 def solr(search_item,data):
@@ -26,7 +18,7 @@ def solr(search_item,data):
         results = solr.search(item,**{
                     'hl': 'true',
                     'hl.fragsize': 100,
-                    'rows': 20,})
+                    'rows': 100,})
 
 
         for result in results:
@@ -54,7 +46,7 @@ def main(*argv):
             data = json.load(data_file)
 
         test = solr(search_item,data)
-        data = list(traverse(test))
+        data = list(utilities.traverse(test))
         
         return json.dumps(data)
     

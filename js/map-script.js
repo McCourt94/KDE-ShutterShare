@@ -1,22 +1,24 @@
 var watchId = null;
-    function geoloc() {
-    if (navigator.geolocation) {
-        var optn = {
-                enableHighAccuracy : true,
-                timeout : Infinity,
-                maximumAge : 0
-        };
-    watchId = navigator.geolocation.watchPosition(showPosition, showError, optn);
-    } else {
-            alert('Geolocation is not supported in your browser');
-    }
+
+function geoloc() {
+        if (navigator.geolocation) {
+                var optn = {
+                        enableHighAccuracy : true,
+                        timeout : Infinity,
+                        maximumAge : 0
+                };
+            watchId = navigator.geolocation.watchPosition(showPosition, showError, optn);
+        } 
+        else {
+                alert('Geolocation is not supported in your browser');
+        }
     }
     
 
 function showPosition(position) {
         var googlePos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-        console.log(position.coords.latitude);
-        console.log(position.coords.longitude);
+        var initialLatitude = position.coords.latitude;
+        var initialLongitude = position.coords.latitude;
         var mapOptions = {
             zoom : 12,
             center : googlePos,
@@ -38,7 +40,6 @@ function showPosition(position) {
             };
             var googleMarker = new google.maps.Marker(markerOpt);
             // populate yor box/field with lat, lng
-            console.log(lat,lng);
             
         });
         var markerOpt = {
@@ -61,10 +62,12 @@ function showPosition(position) {
                 google.maps.event.addListener(googleMarker, 'click', function() {
                 popup.open(googleMap);
             });
-                } else {
+                } 
+                else {
                     alert('No results found');
                 }
-                } else {
+                } 
+                else {
                     alert('Geocoder failed due to: ' + status);
                 }
             });
@@ -88,4 +91,4 @@ function showPosition(position) {
                     err.innerHTML = "An unknown error occurred."
                     break;
             }
-        }
+}
