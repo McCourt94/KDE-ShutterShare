@@ -35,12 +35,9 @@ def main(*argv):
         for item in args:
             search_item.append(item)
             
-        JSON = "/python/data/image_json.json"
-    
-        path_to_files = 'C:\Users\Stephen McCourt\Desktop\Final Year University\Computer Project\Knowledge & Data Engineering Project/python/data/image_json.json'
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         
-        
-    
+        path_to_files = root+'/python/data/image_json.json'  
         
         with open(path_to_files) as data_file:    
             data = json.load(data_file)

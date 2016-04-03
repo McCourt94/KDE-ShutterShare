@@ -11,15 +11,6 @@ from ast import literal_eval
 import os
 import glob
 
-
-def traverse(o, tree_types=(list, tuple)):
-    if isinstance(o, tree_types):
-        for value in o:
-            for subvalue in traverse(value, tree_types):
-                yield subvalue
-    else:
-        yield o
- 
 def read_image_ids(path):
     lines =  list()
     with open(str(path)+'image_ids.txt') as f:
@@ -73,9 +64,9 @@ def generate(i,u,desc,geo_lat,geo_lon):
 def main():  
     
     
-    JSON = "/python/data/image_json.json"
-    
-    path_to_files = os.getcwd()+JSON
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        
+    path_to_files = root+'/python/data/image_json.json'  
     
     image_ids = read_image_ids(os.getcwd()+'/python/data/')
     image_tags = read_image_tags(os.getcwd()+'/python/data/')
