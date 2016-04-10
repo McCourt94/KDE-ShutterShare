@@ -20,9 +20,14 @@ def solr(search_item,data):
                     'hl.fragsize': 100,
                     'rows': 100,})
 
-
-        for result in results:
-            image_dictionary.append((result['url']))
+    for result in results:
+        image_dict = {'id':'',
+                      'lat':'',
+                      'lon':'',}
+        image_dict['id'] = result['url'][0]
+        image_dict['lat'] = result['lat'][0]
+        image_dict['lon'] = result['lon'][0]
+        image_dictionary.append(image_dict)
     return image_dictionary
     
 def main(*argv):
@@ -43,9 +48,8 @@ def main(*argv):
             data = json.load(data_file)
 
         test = solr(search_item,data)
-        data = list(utilities.traverse(test))
         
-        return json.dumps(data)
+        return (json.dumps(test))
     
 if __name__ == '__main__':
     sys.exit(main(*sys.argv))

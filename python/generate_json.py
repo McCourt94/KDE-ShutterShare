@@ -51,12 +51,13 @@ def generate(i,u,desc,geo_lat,geo_lon):
         photos_dict={ 'id': '',
                     'url':'',
                     'description':{},
-                    'location':{'lat':'','lon':''},}
+                    'lat':'',
+                    'lon':''}
         photos_dict['id']=i[j]
         photos_dict['url']=u[j]
         photos_dict['description']=desc[j]
-        photos_dict['location']['lat'] = geo_lat[j]
-        photos_dict['location']['lon']=geo_lon[j]       
+        photos_dict['lat'] = geo_lat[j]
+        photos_dict['lon']=geo_lon[j]       
         images.append(photos_dict) 
                     
     return images

@@ -2,11 +2,17 @@ shuttershareApp = angular.module('shuttershareApp', ['ngMaterial','ngRoute', "ui
 
 shuttershareApp.controller('shuttershareController', function($scope,$http,$rootScope){
 	console.log("loaded controller");
-	console.log($scope.location);
 	
 	$rootScope.images = '';
-	
-	
+	//geolocaiton stuff...
+    $scope.lat = "0";
+    $scope.lng = "0";
+    $scope.accuracy = "0";
+    $scope.error = "";
+    $scope.model = { myMap: undefined };
+    $scope.myMarkers = [];
+    $scope.distance = 1;
+    $scope.showMap = false;
 	
 	$scope.search = function(){
 		if(($scope.tag == "") || ($scope.tag == undefined )){
@@ -18,8 +24,7 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
             }).then(function (response) {
                 // this callback will be called asynchronously
                 // when the response is available
-                $rootScope.images = response.data
-                console.log(response.data);
+                $scope.returnImages = response.data;
                 $scope.tag=''
             }, function (response) {
                 // called asynchronously if an error occurs
@@ -31,18 +36,32 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
 		}
 	}
 	
+	$scope.imageClick = function(image){
+	    if(image.lat == "None" || image.lon == "None"){
+	        alert("No location data for this image")
+	        return;
+	    }
+	    var position = {
+	        coords: {
+	            longitude:image.lon,
+	            latitude:image.lat
+	        }
+	    }
+	    $scope.showMap = true;
+	    $scope.showMarkerForImage(position);  
+	}
 	
+	$scope.showMarkerForImage = function(position){
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        var latlng = new google.maps.LatLng(latitude, longitude);
+        $scope.model.myMap.setCenter(latlng);
+        angular.forEach($scope.myMarkers, function(marker) {
+            marker.setMap(null);
+        });
+        $scope.myMarkers.push(new google.maps.Marker({ map: $scope.model.myMap, position: latlng })); 
+    }
 	
-	
-	//geolocaiton stuff...
-	$scope.lat = "0";
-    $scope.lng = "0";
-    $scope.accuracy = "0";
-    $scope.error = "";
-    $scope.model = { myMap: undefined };
-    $scope.myMarkers = [];
-    $scope.distance = 1;
-    $scope.showMap = false;
     
     $scope.showResult = function () {
         return $scope.error == "";
@@ -54,8 +73,7 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 	
-	$scope.geoLoc = function(){
-	
+	$scope.getGeoLocation = function(){
        $scope.showMap = true;
 	
 	   if (navigator.geolocation) {
@@ -64,9 +82,7 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
                     timeout : Infinity,
                     maximumAge : 0
             };
-            watchId = navigator.geolocation.watchPosition($scope.showPosition, $scope.showError, optn);
-            
-
+            watchId = navigator.geolocation.getCurrentPosition($scope.showPosition, $scope.showError, optn );
         } 
         else {
                 alert('Geolocation is not supported in your browser');
@@ -76,26 +92,28 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
 	$scope.showPosition = function (position) {
         $scope.lat = position.coords.latitude;
         $scope.lng = position.coords.longitude;
+        console.log($scope.lat,$scope.lng)
         $scope.accuracy = position.coords.accuracy;
-        console.log($scope.distance)
         $scope.$apply();
         $http({
                 method: 'GET',
-                url: 'http://localhost:5000/python/geo_search/',params:{"lat": $scope.lat,'lon':$scope.lng,'radius':$scope.distance}
+                url: 'http://localhost:5000/python/spatialsearch/',params:{"lat": $scope.lat,'lon':$scope.lng,'radius':$scope.distance}
             }).then(function (response) {
                 // this callback will be called asynchronously
                 // when the response is available
-                $rootScope.images = response.data
-                console.log(response.data);
+                $scope.returnImages = response.data
             }, function (response) {
                 // called asynchronously if an error occurs
                 // or server returns response with an error status.
                 console.log(JSON.stringify(response));
                 console.error("Issue retrieving data from server")
-        });
+            });
         var latlng = new google.maps.LatLng($scope.lat, $scope.lng);
         $scope.model.myMap.setCenter(latlng);
-        $scope.myMarkers.push(new google.maps.Marker({ map: $scope.model.myMap, position: latlng }));
+        angular.forEach($scope.myMarkers, function(marker) {
+            marker.setMap(null);
+        });
+        $scope.myMarkers.push(new google.maps.Marker({ map: $scope.model.myMap, position: latlng }));   
         google.maps.event.addListener($scope.model.myMap, 'click', function(event) {
             $scope.lat = event.latLng.lat();
             $scope.lng = event.latLng.lng();
@@ -109,24 +127,21 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
                 animation : google.maps.Animation.DROP
             };
             var googleMarker = new google.maps.Marker(markerOpt);
-            // populate yor box/field with lat, lng
             $http({
                 method: 'GET',
-                url: 'http://localhost:5000/python/geo_update/',params:{"lat": $scope.lat,'lon':$scope.lng}
+                url: 'http://localhost:5000/python/spatialsearch/',params:{"lat": $scope.lat,'lon':$scope.lng,'radius':$scope.distance}
             }).then(function (response) {
                 // this callback will be called asynchronously
                 // when the response is available
-                $rootScope.images = response.data
-                console.log(response.data);
+                $scope.returnImages = response.data
             }, function (response) {
                 // called asynchronously if an error occurs
                 // or server returns response with an error status.
                 console.log(JSON.stringify(response));
                 console.error("Issue retrieving data from server")
             });
-            console.log($scope.lat,$scope.lng);
             
-        });
+        })
     }
     
     $scope.showError = function (error) {

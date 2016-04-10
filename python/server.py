@@ -59,24 +59,14 @@ def solr():
     output = p.stdout.read()
     return output
 
-@app.route('/python/geo_search/',methods=['GET'])
+@app.route('/python/spatialsearch/',methods=['GET'])
 @crossdomain(origin='*')
 def geo():
     latitude = request.args.get('lat')
     longitude = request.args.get('lon')
     radius = request.args.get('radius')
-    cmd = 'python geosearch.py %s %s %s' % (latitude, longitude, radius)
-    p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
-    output = p.stdout.read()
-    return output
-
-@app.route('/python/geo_update/',methods=['GET'])
-@crossdomain(origin='*')
-def update_geo():
-    latitude = request.args.get('lat')
-    longitude = request.args.get('lon')
-    location = (latitude,longitude)
-    cmd = 'python geosearch.py %s %s' % (latitude, longitude)
+    intr = int(radius)
+    cmd = 'python spatialsearch.py %s %s %s' % (latitude, longitude, intr)
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
     return output

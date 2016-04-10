@@ -22,7 +22,6 @@
         <!--GOOGLE API!-->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
         <!--MY JAVASCRIPT!-->        
-        <script type="text/javascript" src ="js/map-script.js"></script>
         <script type="text/javascript" src ="js/grid.js"></script>
         
     </head>
@@ -39,12 +38,11 @@
     		<div id = "container">
     			<div id = "sidebar">
                         <div id = "map-location-pin">
-                            <img src="images/map-location-pin.png" ng-click='geoLoc()' alt="Map Pin">
+                            <img src="images/map-location-pin.png" ng-click='getGeoLocation()' alt="Map Pin">
                         </div>
                         <div id = "city-search-box">
                             <form action"#" name="city-search">
                                 <input type="text" name="city-search" ng-model="tag" placeholder="What are you searching?">
-                                {{city}}
                             </form>
                         </div>
                         <md-content style = "flex: 1; padding-right:16px; padding-top:20px; background:transparent; color:blue">
@@ -53,7 +51,6 @@
                                 </div>
                                 <md-slider flex md-discrete ng-model="distance" step="1"+km min="1km" max="10km" aria-label="distance">
                                 </md-slider>
-                                {{distance}}
                             </div>
                         <div id = "button">
                             <img src ="images/submit.png" style = "height: 72px; width: 72px; float:right;" ng-click="search()" alt="submit">
@@ -61,29 +58,29 @@
 
                 </div>
     			<div id = "content">
-        			     <div ng-if="showMap">
+        			     <div ng-class="{'hide-map': !showMap}">
                             <div id = "mapholder" ui-map="model.myMap" class="map" ui-options="mapOptions" >
-                                
                             </div>
-                        </div>
-                        <div ng-controller="AppCtrl as appCtrl" ng-cloak>
+                        </div>  
+                        <div>
                             <md-content layout-padding style="height:500px; background:transparent">
-                            <md-grid-list
-                                md-cols-gt-md="7"
-                                md-cols-sm="3" 
-                                md-cols-md="8"
-                                md-row-height="8:8"
-                                md-gutter-gt-md="16px" 
-                                md-gutter-gt-sm="8px" 
-                                md-gutter="4px">
-                            <md-grid-tile
-                                ng-repeat="tile in tiles"
-                                md-colspan-gt-sm="1"
-                                md-rowspan-gt-sm="1">
-                            <img ng-src="{{tile.src}}" style="height=130px; width:130px"/>
-                            </md-grid-tile>
-                            </md-grid-list>
-                          </md-content>
+                                    <md-grid-list
+                                        md-cols-gt-md="7"
+                                        md-cols-sm="3" 
+                                        md-cols-md="8"
+                                        md-row-height="8:8"
+                                        md-gutter-gt-md="16px" 
+                                        md-gutter-gt-sm="8px" 
+                                        md-gutter="4px">
+                                    <md-grid-tile
+                                        ng-repeat="image in returnImages"
+                                        ng-click="imageClick(image)"
+                                        md-colspan-gt-sm="1"
+                                        md-rowspan-gt-sm="1">
+                                        <img ng-src="{{image.id}}" style="height=130px; width:130px"/>
+                                    </md-grid-tile>
+                                </md-grid-list>
+                            </md-content>
                         </div>
     			 </div>
     		</div>
@@ -95,7 +92,7 @@
                     </a>
                     </div>
                     <div class = "copyright">
-                        <p style = "font-size: 17px; line-height: 15px; color:white; padding-top:20px; opacity:0.2">© ShutterShare A Flickr App 2015</p>
+                        <p style = "font-size: 17px; line-height: 15px; color:white; padding-top:20px; opacity:0.2">© ShutterShare A Flickr App 2016</p>
                     </div>
                 </div>
             </div>

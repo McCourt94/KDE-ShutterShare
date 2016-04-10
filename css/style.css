@@ -4,14 +4,20 @@ body{
 
 #nav ul, #nav li{
 	list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  width: 60px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-  background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    background-color: transparent;
 }
 
+
+.hide-map{
+    /* display:none; */
+    /* opacity: 0.1; */
+    visibility: hidden;
+}
 #sidebar{
 	border-top: none;
 	border-bottom:none;
