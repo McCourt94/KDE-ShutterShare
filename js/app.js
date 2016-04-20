@@ -18,11 +18,17 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
     $scope.showSidebar = true;
 	
 	
-	$scope.showAbout = function(){
+	$scope.displayAbout = function(){
 	    $scope.aboutClicked = true;
 	    $scope.showContent = false;
 	    $scope.showSidebar = false;
 	}
+	
+	$scope.displayContent = function(){
+        $scope.aboutClicked = false;
+        $scope.showContent = true;
+        $scope.showSidebar = true;
+    }
 	
 	$scope.search = function(){
 		if(($scope.tag == "") || ($scope.tag == undefined )){
