@@ -63,12 +63,8 @@ def generate(i,u,desc,geo_lat,geo_lon):
     return images
 
 def main():  
-    
-    
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        
-    path_to_files = root+'/python/data/image_json.json'  
-    
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   
+    path_to_files = root+'/python/data/image_json.json'   
     image_ids = read_image_ids(os.getcwd()+'/python/data/')
     image_tags = read_image_tags(os.getcwd()+'/python/data/')
     image_geo_data = read_image_geo(os.getcwd()+'/python/data/')

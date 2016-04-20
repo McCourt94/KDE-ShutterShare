@@ -30,13 +30,13 @@
                 <div id = "logo"></div>                    
                 <div id = "nav">
                     <ul>
-                        <li id = "current"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li id = "current"><a href="home.html">Home</a></li>
+                        <li ng-click = 'showAbout()'><a href='#'>About</a></li>
                     </ul> 
                 </div>
             </div>
     		<div id = "container">
-    			<div id = "sidebar">
+    			<div id = "sidebar" ng-show="showSidebar">
                         <div id = "map-location-pin">
                             <img src="images/map-location-pin.png" ng-click='getGeoLocation()' alt="Map Pin">
                         </div>
@@ -55,12 +55,14 @@
                         <div id = "button">
                             <img src ="images/submit.png" style = "height: 72px; width: 72px; float:right;" ng-click="search()" alt="submit">
                         </div>
-
                 </div>
-    			<div id = "content">
-        			     <div ng-class="{'hide-map': !showMap}">
-                            <div id = "mapholder" ui-map="model.myMap" class="map" ui-options="mapOptions" >
-                            </div>
+                <div id = "about" ng-show='aboutClicked'>
+                    <h1>About ShutterShare</h1>
+                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+    			<div id = "content" ng-show="showContent">
+        			    <div ng-class="{'hide-map': !showMap}">
+                            <div id = "mapholder" ui-map="model.myMap" class="map" ui-options="mapOptions" ></div>
                         </div>  
                         <div>
                             <md-content layout-padding style="height:500px; background:transparent">
@@ -96,6 +98,5 @@
                     </div>
                 </div>
             </div>
-            
     	</body>
 </html>

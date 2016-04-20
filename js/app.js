@@ -12,7 +12,17 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
     $scope.model = { myMap: undefined };
     $scope.myMarkers = [];
     $scope.distance = 1;
+    $scope.aboutClicked = false;
     $scope.showMap = false;
+    $scope.showContent = true;
+    $scope.showSidebar = true;
+	
+	
+	$scope.showAbout = function(){
+	    $scope.aboutClicked = true;
+	    $scope.showContent = false;
+	    $scope.showSidebar = false;
+	}
 	
 	$scope.search = function(){
 		if(($scope.tag == "") || ($scope.tag == undefined )){
@@ -120,6 +130,9 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
             var pinColor = "3F51B5";
             var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor);
             var googlePosNew = new google.maps.LatLng($scope.lat,$scope.lng);
+            angular.forEach($scope.myMarkers, function(marker) {
+                marker.setMap(null);
+            });
             var markerOpt = {
                 map : $scope.model.myMap,
                 position : googlePosNew,

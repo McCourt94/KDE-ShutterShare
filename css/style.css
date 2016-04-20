@@ -58,13 +58,11 @@ body{
 
 
 #logo{
-  height:200px;
-  width:800px;
-  background:url("../images/logo.jpg");
-  background-repeat: no-repeat;
+    height:200px;
+    width:800px;
+    background:url("../images/logo.jpg");
+    background-repeat: no-repeat;
 }
-
-
 
 #tag-search-box form input, #city-search-box form input{
 	border-radius:25px;
@@ -94,26 +92,26 @@ body{
 #nav a:link, #nav a:visited{
 	float:right;
 	display: inline;
-  width: 80px;
-  color: #3F51B5;
-  background-color: transparent;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-  padding: 30px;
-  text-decoration: none;
-  text-transform: uppercase;
+    width: 80px;
+    color: #3F51B5;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    padding: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #current a:link, #current a:visited{
-  float:right;
-  display: inline;
-  width: 80px;
-  color: white;
-  background-color: #3F51B5;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
+    float:right;
+    display: inline;
+    width: 80px;
+    color: white;
+    background-color: #3F51B5;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #nav a:hover, #nav a:active {
@@ -128,61 +126,74 @@ body{
 }
 
 #content{
-  flex:3;
-	height:100%;
+    flex:3;
+    height:100%;
 	background-color:#5065d6;
+}
+
+#about{
+    flex:5;
+    height:100%;
+    background-color:#5065d6;
+}
+
+#about h1, #about p{
+    text-align:center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color:#FFFFFF;
 }
 
 #mapholder{
 	margin-top:10px;
-  margin-bottom:10px;
+    margin-bottom:10px;
 	height:40%;
 	background-color: transparent;
 }
 
 #footer{
-  height:300px;
-  width:100%;
-  background-color:#3F51B5;
+    height:300px;
+    width:100%;
+    background-color:#3F51B5;
 }
 
 .footer-container {
-  margin: 0 auto;
-  padding-top:60px;
-  padding-bottom:60px;
-  height:150px;
-  display:flex;
-  flex-direction:column;
-  align-items:flex-end;
+    margin: 0 auto;
+    padding-top:60px;
+    padding-bottom:60px;
+    height:150px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
 }
 
 .advertising{
-  flex:1;
-  background-color:transparent;
+    flex:1;
+    background-color:transparent;
 }
 
 .copyright{
-  flex:1;
-  background-color:transparent;
+    flex:1;
+    background-color:transparent;
 }
 
 .Flickr img{
-  width: 72px;
-  height: 72px;
-  padding: 5px;
-  padding-right:80px;
-  opacity:0.2;
+    width: 72px;
+    height: 72px;
+    padding: 5px;
+    padding-right:80px;
+    opacity:0.2;
 }
 
 /* IE 6 */
 * html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+    position:absolute;
+    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
 /*/*----------SLIDER----------------*/
 
 .sliderdemoBasicUsage input[type="number"] {
-  text-align: center;
-  padding-left: 10px;
-  color:blue; }
+    text-align: center;
+    padding-left: 10px;
+    color:blue; 
+}
