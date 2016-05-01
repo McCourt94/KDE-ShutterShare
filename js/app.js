@@ -41,6 +41,7 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
                 // this callback will be called asynchronously
                 // when the response is available
                 $scope.returnImages = response.data;
+                console.log(response.data)
                 $scope.tag=''
             }, function (response) {
                 // called asynchronously if an error occurs

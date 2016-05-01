@@ -1,5 +1,0 @@
-haversine
-numpy
-Flask
-pysolr
-requests

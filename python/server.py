@@ -57,6 +57,7 @@ def solr():
     cmd = 'python solr.py %s' % tag
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
+    print output
     return output
 
 @app.route('/python/spatialsearch/',methods=['GET'])
@@ -69,7 +70,12 @@ def geo():
     cmd = 'python spatialsearch.py %s %s %s' % (latitude, longitude, intr)
     p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     output = p.stdout.read()
+    print output
     return output
+
+@app.route('/hello')
+def hello():
+    return 'Hello World'
 
 if __name__ == "__main__":
     app.run(debug=True)

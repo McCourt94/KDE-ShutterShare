@@ -10,7 +10,7 @@ import glob
 
 
 def solr(search_item,data):
-    solr = pysolr.Solr('http://localhost:8983/solr/test')
+    solr = pysolr.Solr('http://localhost:8983/solr/keyword')
     solr.add(data)
         
     image_dictionary = []

@@ -45,16 +45,16 @@ def read_image_url(path):
     
     return images
 
-def generate(i,u,desc,geo_lat,geo_lon):
+def generate(id,url,desc,geo_lat,geo_lon):
     images = []
-    for j in range(0,len(i)):
+    for j in range(0,len(id)):
         photos_dict={ 'id': '',
                     'url':'',
                     'description':{},
                     'lat':'',
                     'lon':''}
-        photos_dict['id']=i[j]
-        photos_dict['url']=u[j]
+        photos_dict['id']=id[j]
+        photos_dict['url']=url[j]
         photos_dict['description']=desc[j]
         photos_dict['lat'] = geo_lat[j]
         photos_dict['lon']=geo_lon[j]       
@@ -65,9 +65,9 @@ def generate(i,u,desc,geo_lat,geo_lon):
 def main():  
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   
     path_to_files = root+'/python/data/image_json.json'   
-    image_ids = read_image_ids(os.getcwd()+'/python/data/')
-    image_tags = read_image_tags(os.getcwd()+'/python/data/')
-    image_geo_data = read_image_geo(os.getcwd()+'/python/data/')
+    image_ids = read_image_ids(os.getcwd()+'/data/')
+    image_tags = read_image_tags(os.getcwd()+'/data/')
+    image_geo_data = read_image_geo(os.getcwd()+'/data/')
     geo_data_lat = []
     geo_data_lon = []
     for i in image_geo_data:
@@ -79,7 +79,7 @@ def main():
             data = str.split(i,',')
             geo_data_lat.append(float(str(data[0]).replace('[','').replace('u','').replace("'","").replace(",","")))
             geo_data_lon.append(float(str(data[1]).replace(']','').replace('u','').replace(' ','').replace("'","")))
-    image_url = read_image_url(os.getcwd()+'/python/data/')
+    image_url = read_image_url(os.getcwd()+'/data/')
     JSON = generate(image_ids, image_url, image_tags, geo_data_lat, geo_data_lon)
            
     

@@ -1,6 +1,0 @@
-setup.py
-shuttershare.egg-info/PKG-INFO
-shuttershare.egg-info/SOURCES.txt
-shuttershare.egg-info/dependency_links.txt
-shuttershare.egg-info/requires.txt
-shuttershare.egg-info/top_level.txt

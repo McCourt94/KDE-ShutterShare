@@ -75,11 +75,11 @@
                                         md-gutter-gt-sm="8px" 
                                         md-gutter="4px">
                                     <md-grid-tile
-                                        ng-repeat="image in returnImages"
-                                        ng-click="imageClick(image)"
+                                        ng-repeat="i in returnImages.slice(0,150) track by $index"
+                                        ng-click="imageClick(i)"
                                         md-colspan-gt-sm="1"
                                         md-rowspan-gt-sm="1">
-                                        <img ng-src="{{image.id}}" style="height=130px; width:130px"/>
+                                        <img ng-src="{{i.id}}" style="height=130px; width:130px"/>
                                     </md-grid-tile>
                                 </md-grid-list>
                             </md-content>
