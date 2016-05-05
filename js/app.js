@@ -31,8 +31,9 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
     }
 	
 	$scope.search = function(){
+	   $scope.showMap = false;
 		if(($scope.tag == "") || ($scope.tag == undefined )){
-			console.log("Please enter something to search");
+			alert("Please enter something to search");
 		}else{
             $http({
                 method: 'GET',
@@ -76,7 +77,38 @@ shuttershareApp.controller('shuttershareController', function($scope,$http,$root
         angular.forEach($scope.myMarkers, function(marker) {
             marker.setMap(null);
         });
-        $scope.myMarkers.push(new google.maps.Marker({ map: $scope.model.myMap, position: latlng })); 
+        $scope.myMarkers.push(new google.maps.Marker({ map: $scope.model.myMap, position: latlng }));
+        google.maps.event.addListener($scope.model.myMap, 'click', function(event) {
+            $scope.lat = event.latLng.lat();
+            $scope.lng = event.latLng.lng();
+            var pinColor = "3F51B5";
+            var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor);
+            var googlePosNew = new google.maps.LatLng($scope.lat,$scope.lng);
+            angular.forEach($scope.myMarkers, function(marker) {
+                marker.setMap(null);
+            });
+            var markerOpt = {
+                map : $scope.model.myMap,
+                position : googlePosNew,
+                icon:pinImage,
+                animation : google.maps.Animation.DROP
+            };
+            var googleMarker = new google.maps.Marker(markerOpt);
+            $http({
+                method: 'GET',
+                url: 'http://localhost:5000/python/spatialsearch/',params:{"lat": $scope.lat,'lon':$scope.lng,'radius':$scope.distance}
+            }).then(function (response) {
+                // this callback will be called asynchronously
+                // when the response is available
+                $scope.returnImages = response.data
+            }, function (response) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+                console.log(JSON.stringify(response));
+                console.error("Issue retrieving data from server")
+            });
+            
+        })
     }
 	
     

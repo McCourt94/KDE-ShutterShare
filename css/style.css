@@ -17,6 +17,10 @@ body{
     /* display:none; */
     /* opacity: 0.1; */
     visibility: hidden;
+    width:100vw;
+    position: absolute;
+    
+    /* top: -100px; */
 }
 #sidebar{
 	border-top: none;

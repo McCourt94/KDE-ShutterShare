@@ -5,6 +5,7 @@ Description: Implements geo spatial searching
 '''
 import sys,os.path
 import glob, json
+import time
 import utilities
 import time
 from geoindex import GeoGridIndex, GeoPoint
@@ -35,6 +36,7 @@ def main(argv):
         print ("You must input a location")
         return 1
     else:
+        start_time = time.time()
         myArray =[]
         root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         grid = GeoGridIndex(precision=4)
@@ -52,7 +54,8 @@ def main(argv):
 
         matches = find_distance(grid, myLocation, myArray, radius)
         
-        return json.dumps(matches)
+        json_matches = json.dumps(matches)
+        return json_matches
         
 if __name__ == '__main__':
     sys.exit(main(sys.argv))

@@ -1,6 +1,7 @@
 from __future__ import print_function
 import pysolr
 import json
+import time
 from pprint import pprint
 import sys
 import os
@@ -32,6 +33,7 @@ def solr(search_item,data):
     
 def main(*argv):
     args = argv[1:]
+    start_time = time.time()
     if len(args) == 0:
         print ("You must specify at least one tag")
         return 1
@@ -49,7 +51,11 @@ def main(*argv):
 
         test = solr(search_item,data)
         
-        return (json.dumps(test))
+        json_data = json.dumps(test)
+        
+        return (json_data)
+        
     
 if __name__ == '__main__':
+    
     sys.exit(main(*sys.argv))
